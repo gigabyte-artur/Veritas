@@ -270,6 +270,12 @@
 		<Description>Рулетка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="beffd0ad-d5a5-4fc6-b3f0-8e322d88ecae">
+		<Name>Самородок</Name>
+		<Code>000000064</Code>
+		<Description>Самородок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="3f76f8a5-dba6-4ba8-9e27-91e1ac1ec2c6">
 		<Name>СвежийВзгляд</Name>
 		<Code>000000046</Code>
