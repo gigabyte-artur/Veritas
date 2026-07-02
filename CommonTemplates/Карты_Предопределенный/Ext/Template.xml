@@ -377,6 +377,30 @@
     &lt;description&gt;Наносит 6 урона противнику. При сбросе: Получите 8 щита&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
   &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;БросокМонетки&lt;/name&gt;
+    &lt;title&gt;Бросок монетки&lt;/title&gt;
+    &lt;description&gt;50% игрок получает 3 энергии, 50% игрок не получает ничего&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;Долг&lt;/name&gt;
+    &lt;title&gt;Долг&lt;/title&gt;
+    &lt;description&gt;Игрок получает 15 золота и случайный негативный эффект&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;Конденсатор&lt;/name&gt;
+    &lt;title&gt;Конденсатор&lt;/title&gt;
+    &lt;description&gt;Получите 1 энергию. При сбросе: получите 1 энергию&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;   
+  &lt;card&gt;
+    &lt;name&gt;ОпасныйПируэт&lt;/name&gt;
+    &lt;title&gt;Опасный пируэт&lt;/title&gt;
+    &lt;description&gt;Наносит 12 урона противнику, 5 урона игроку&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt; 
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

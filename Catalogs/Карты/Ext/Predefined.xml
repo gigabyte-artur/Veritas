@@ -36,6 +36,12 @@
 		<Description>Благородный контракт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b6169663-6595-49a2-adef-2d0f15c2a169">
+		<Name>БросокМонетки</Name>
+		<Code>000000060</Code>
+		<Description>Бросок монетки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="155b0b1d-7db0-43b8-8d92-f58103c406e5">
 		<Name>БумажнаяБроня</Name>
 		<Code>000000056</Code>
@@ -84,6 +90,12 @@
 		<Description>Джеб</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="f282b7f9-c9b8-46dc-b3fe-9acb4dc8cc91">
+		<Name>Долг</Name>
+		<Code>000000061</Code>
+		<Description>Долг</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a4fd4582-94e0-4a59-9f79-7deef6148a4e">
 		<Name>Единички</Name>
 		<Code>000000016</Code>
@@ -124,6 +136,12 @@
 		<Name>Исчезновение</Name>
 		<Code>000000025</Code>
 		<Description>Исчезновение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="97f58716-560e-4775-870d-e7a8af96684b">
+		<Name>Конденсатор</Name>
+		<Code>000000062</Code>
+		<Description>Конденсатор</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="41409a06-fef4-4c7b-b6b1-d05c54db45a8">
@@ -178,6 +196,12 @@
 		<Name>Окоп</Name>
 		<Code>000000007</Code>
 		<Description>Окоп</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="dcda5d12-76a2-4c27-b837-4d105dc565b9">
+		<Name>ОпасныйПируэт</Name>
+		<Code>000000063</Code>
+		<Description>Опасный пируэт</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="c5b9b2ea-0f66-4e43-867f-73638c9952bc">
