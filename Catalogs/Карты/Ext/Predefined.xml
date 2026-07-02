@@ -108,6 +108,12 @@
 		<Description>Жгучее зелье</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="9ed87dfc-d033-40da-a138-02b372577f4e">
+		<Name>Желание</Name>
+		<Code>000000065</Code>
+		<Description>Желание</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="f107386a-9ab0-44da-8f98-506dc7fe8c1b">
 		<Name>Зазеркалье</Name>
 		<Code>000000054</Code>

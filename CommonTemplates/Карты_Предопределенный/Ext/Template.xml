@@ -406,6 +406,12 @@
     &lt;title&gt;Самородок&lt;/title&gt;
     &lt;description&gt;Получите 15 золота&lt;/description&gt;
     &lt;cost&gt;2&lt;/cost&gt;
+  &lt;/card&gt; 
+  &lt;card&gt;
+    &lt;name&gt;Желание&lt;/name&gt;
+    &lt;title&gt;Желание&lt;/title&gt;
+    &lt;description&gt;Разыгрывает полезное действие, исходя из ситуации&lt;/description&gt;
+    &lt;cost&gt;2&lt;/cost&gt;
   &lt;/card&gt;   
 &lt;/cards&gt;</v8:content>
 						</v8:item>
