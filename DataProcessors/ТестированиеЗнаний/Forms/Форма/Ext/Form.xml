@@ -370,6 +370,13 @@
 									<ExtendedTooltip name="HUD_ИмяПротивникаРасширеннаяПодсказка" id="241"/>
 								</LabelField>
 								<UsualGroup name="HUD_ИндикаторСерии" id="262">
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Серия верных ответов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
 									<Group>AlwaysHorizontal</Group>
 									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>

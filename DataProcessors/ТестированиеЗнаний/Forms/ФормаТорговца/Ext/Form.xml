@@ -139,13 +139,38 @@
 						<ExtendedTooltip name="КартыНаВитринеУправлениеПоискомРасширеннаяПодсказка" id="96"/>
 					</SearchControlAddition>
 					<ChildItems>
-						<InputField name="КартыНаВитринеКарта" id="97">
-							<DataPath>КартыНаВитрине.Карта</DataPath>
-							<EditMode>EnterOnInput</EditMode>
-							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-							<ContextMenu name="КартыНаВитринеКартаКонтекстноеМеню" id="98"/>
-							<ExtendedTooltip name="КартыНаВитринеКартаРасширеннаяПодсказка" id="99"/>
-						</InputField>
+						<ColumnGroup name="КартыНаВитринеГруппаКартаЭнергия" id="113">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Карты на витрине группа карта энергия</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Карты на витрине группа карта энергия</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>InCell</Group>
+							<ExtendedTooltip name="КартыНаВитринеГруппаКартаЭнергияРасширеннаяПодсказка" id="114"/>
+							<ChildItems>
+								<InputField name="КартыНаВитринеКарта" id="97">
+									<DataPath>КартыНаВитрине.Карта</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КартыНаВитринеКартаКонтекстноеМеню" id="98"/>
+									<ExtendedTooltip name="КартыНаВитринеКартаРасширеннаяПодсказка" id="99"/>
+								</InputField>
+								<InputField name="КартыНаВитринеЭнергия" id="110">
+									<DataPath>КартыНаВитрине.Энергия</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="КартыНаВитринеЭнергияКонтекстноеМеню" id="111"/>
+									<ExtendedTooltip name="КартыНаВитринеЭнергияРасширеннаяПодсказка" id="112"/>
+								</InputField>
+							</ChildItems>
+						</ColumnGroup>
 						<InputField name="КартыНаВитринеЦена" id="100">
 							<DataPath>КартыНаВитрине.Цена</DataPath>
 							<EditMode>EnterOnInput</EditMode>
@@ -438,6 +463,22 @@
 						<v8:NumberQualifiers>
 							<v8:Digits>15</v8:Digits>
 							<v8:FractionDigits>3</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Энергия" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Энергия</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
 							<v8:AllowedSign>Any</v8:AllowedSign>
 						</v8:NumberQualifiers>
 					</Type>
