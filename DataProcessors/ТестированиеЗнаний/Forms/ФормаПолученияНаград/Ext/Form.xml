@@ -258,6 +258,29 @@
 			<CommandName>Form.Command.ЗабратьНаграды</CommandName>
 			<ExtendedTooltip name="ЗабратьНаградыРасширеннаяПодсказка" id="21"/>
 		</Button>
+		<LabelDecoration name="ДекорацияРазделитель" id="53">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияРазделительКонтекстноеМеню" id="54"/>
+			<ExtendedTooltip name="ДекорацияРазделительРасширеннаяПодсказка" id="55"/>
+		</LabelDecoration>
+		<Button name="ПропуститьНаграды" id="51">
+			<Type>UsualButton</Type>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.ПропуститьНаграды</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пропустить награды (+15 з.)</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ПропуститьНаградыРасширеннаяПодсказка" id="52"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -333,6 +356,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗабратьНаграды</Action>
+		</Command>
+		<Command name="ПропуститьНаграды" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пропустить награды</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пропустить награды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПропуститьНаграды</Action>
 		</Command>
 	</Commands>
 	<Parameters>

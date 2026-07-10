@@ -500,6 +500,56 @@
 										<Event name="Click">HUD_ТекстНамеренияНажатие</Event>
 									</Events>
 								</LabelField>
+								<UsualGroup name="ГруппаЩитПротивника" id="328">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа щит противника</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа щит противника</v8:content>
+										</v8:item>
+									</ToolTip>
+									<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+									<GroupVerticalAlign>Center</GroupVerticalAlign>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаЩитПротивникаРасширеннаяПодсказка" id="329"/>
+									<ChildItems>
+										<PictureDecoration name="ДекорацияЩитПротивника" id="322">
+											<Width>1</Width>
+											<Height>1</Height>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Декорация щит противника</v8:content>
+												</v8:item>
+											</Title>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<PictureSize>Proportionally</PictureSize>
+											<Picture>
+												<xr:Ref>CommonPicture.Щит</xr:Ref>
+												<xr:LoadTransparent>true</xr:LoadTransparent>
+											</Picture>
+											<ContextMenu name="ДекорацияЩитПротивникаКонтекстноеМеню" id="323"/>
+											<ExtendedTooltip name="ДекорацияЩитПротивникаРасширеннаяПодсказка" id="324"/>
+										</PictureDecoration>
+										<LabelDecoration name="ДекорацияТекстЩитПротивника" id="325">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>0</v8:content>
+												</v8:item>
+											</Title>
+											<GroupVerticalAlign>Center</GroupVerticalAlign>
+											<ContextMenu name="ДекорацияТекстЩитПротивникаКонтекстноеМеню" id="326"/>
+											<ExtendedTooltip name="ДекорацияТекстЩитПротивникаРасширеннаяПодсказка" id="327"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
 							</ChildItems>
 						</UsualGroup>
 						<LabelDecoration name="HUD_БарЗдоровьяПротивника" id="259">
