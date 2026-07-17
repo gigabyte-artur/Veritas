@@ -28,6 +28,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;version&gt;1&lt;/version&gt;
 &lt;modifiers&gt;
     &lt;modifier&gt;
         &lt;name&gt;ВолчийКлык&lt;/name&gt;

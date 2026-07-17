@@ -28,6 +28,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;version&gt;1&lt;/version&gt;
 &lt;cards&gt;
   &lt;card&gt;
     &lt;name&gt;Адреналин&lt;/name&gt;

@@ -298,6 +298,7 @@
 			<CommonPicture>Сундук</CommonPicture>
 			<CommonPicture>Щит</CommonPicture>
 			<CommonPicture>Энергия</CommonPicture>
+			<CommonPicture>ЗвездаСерая</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>
@@ -310,7 +311,10 @@
 			<CommonModule>ОбщегоНазначенияКлиент</CommonModule>
 			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<Constant>ВероятностьПовтораНеправильного</Constant>
+			<Constant>ВерсияКарт</Constant>
 			<Constant>КоличествоЗаданийВРаунде</Constant>
+			<Constant>ВерсияПротивников</Constant>
+			<Constant>ВерсияМодификаторов</Constant>
 			<CommonForm>ФормаНастройкиПриложения</CommonForm>
 			<CommonForm>ФормаРабочийСтол</CommonForm>
 			<CommonForm>ФормаСообщение</CommonForm>
