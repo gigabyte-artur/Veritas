@@ -305,6 +305,7 @@
 			<CommonTemplate>Модификаторы_Предопределенный</CommonTemplate>
 			<CommonTemplate>Противники_Предопределенный</CommonTemplate>
 			<CommonTemplate>Сборник_Предопределенный</CommonTemplate>
+			<CommonModule>ВосхождениеСервер</CommonModule>
 			<CommonModule>ДостиженияКлиентСервер</CommonModule>
 			<CommonModule>ОбменССайтом</CommonModule>
 			<CommonModule>ОбщегоНазначенияВызовСервера</CommonModule>
