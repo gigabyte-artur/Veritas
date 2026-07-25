@@ -391,6 +391,7 @@
 													<v8:content>★</v8:content>
 												</v8:item>
 											</Title>
+											<Hyperlink>true</Hyperlink>
 											<PictureSize>Proportionally</PictureSize>
 											<Picture>
 												<xr:Ref>CommonPicture.Звезда</xr:Ref>
@@ -398,6 +399,9 @@
 											</Picture>
 											<ContextMenu name="HUD_ЯчейкаСерии1КонтекстноеМеню" id="265"/>
 											<ExtendedTooltip name="HUD_ЯчейкаСерии1РасширеннаяПодсказка" id="266"/>
+											<Events>
+												<Event name="Click">HUD_ЯчейкаСерии1Нажатие</Event>
+											</Events>
 										</PictureDecoration>
 										<PictureDecoration name="HUD_ЯчейкаСерии2" id="267">
 											<Width>1</Width>
@@ -408,6 +412,7 @@
 													<v8:content>★</v8:content>
 												</v8:item>
 											</Title>
+											<Hyperlink>true</Hyperlink>
 											<PictureSize>Proportionally</PictureSize>
 											<Picture>
 												<xr:Ref>CommonPicture.Звезда</xr:Ref>
@@ -415,6 +420,9 @@
 											</Picture>
 											<ContextMenu name="HUD_ЯчейкаСерии2КонтекстноеМеню" id="268"/>
 											<ExtendedTooltip name="HUD_ЯчейкаСерии2РасширеннаяПодсказка" id="269"/>
+											<Events>
+												<Event name="Click">HUD_ЯчейкаСерии2Нажатие</Event>
+											</Events>
 										</PictureDecoration>
 										<PictureDecoration name="HUD_ЯчейкаСерии3" id="270">
 											<Width>1</Width>
@@ -425,6 +433,7 @@
 													<v8:content>★</v8:content>
 												</v8:item>
 											</Title>
+											<Hyperlink>true</Hyperlink>
 											<PictureSize>Proportionally</PictureSize>
 											<Picture>
 												<xr:Ref>CommonPicture.Звезда</xr:Ref>
@@ -432,6 +441,9 @@
 											</Picture>
 											<ContextMenu name="HUD_ЯчейкаСерии3КонтекстноеМеню" id="271"/>
 											<ExtendedTooltip name="HUD_ЯчейкаСерии3РасширеннаяПодсказка" id="272"/>
+											<Events>
+												<Event name="Click">HUD_ЯчейкаСерии3Нажатие</Event>
+											</Events>
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>

@@ -150,6 +150,12 @@
 		<Description>Конденсатор</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="65af8a9d-3c3a-44a4-9ce1-c787a708faa4">
+		<Name>КонцентрированныйАргумент</Name>
+		<Code>000000066</Code>
+		<Description>Концентрированный аргумент</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="41409a06-fef4-4c7b-b6b1-d05c54db45a8">
 		<Name>Лезвие</Name>
 		<Code>000000006</Code>
@@ -172,6 +178,12 @@
 		<Name>ЛожныйМаневр</Name>
 		<Code>000000009</Code>
 		<Description>Ложный маневр</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="45521686-5568-4763-a820-fc76f6dcb5e5">
+		<Name>МаякНаГоризонте</Name>
+		<Code>000000067</Code>
+		<Description>Маяк на горизонте</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="c0966ff8-9d05-4e77-8a8e-1c07f3c711a0">
@@ -268,6 +280,12 @@
 		<Name>Пятерки</Name>
 		<Code>000000032</Code>
 		<Description>Пятёрки</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="daf51571-3c86-4ce6-8c84-eba84a266efb">
+		<Name>Реванш</Name>
+		<Code>000000068</Code>
+		<Description>Реванш</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="1184893a-d568-44b7-b005-6bd93eb87474">
