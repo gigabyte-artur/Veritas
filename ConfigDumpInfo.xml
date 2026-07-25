@@ -206,8 +206,8 @@
 		<Metadata name="DataProcessor.ПереносСборников.Form.Форма.Form" id="66555246-f217-4b23-a0d8-1e6086b9c25f.0" configVersion="c4f953ae3e8e9646ab0af95c7a5e656f00000000"/>
 		<Metadata name="DataProcessor.ПереносСборников.ManagerModule" id="d630b1f1-0971-4494-bf41-db69eeb8077f.2" configVersion="9cf338382e46dd46bfc6d31994415b4b00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="b83336e23e43c6479116f8c7413f193b00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="0826c978eb73064397985098b335050700000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="c337263c59f2d74988da66152a4fd36c00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="c5e671496238af4a9f256b6a8519d3f500000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="06cdf6921a662c40aa769f798aa6cc7500000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3" configVersion="d05f529fb1ee1f458a6e83601e065d3a00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВыбораЭтапа.Form" id="c8c5f3a6-5a49-48a7-aa0c-ed8024b8adb3.0" configVersion="a133cb3d92b519449616c6a6f5421b3300000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаДействияПротивника" id="c68f39bf-0691-4d7a-9f92-7cd88b15c8fa" configVersion="d6f218af9b833b4ab3454f37ea1c40d300000000"/>
@@ -230,10 +230,10 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПораженияВосхождение.Form" id="13f27e8a-95b4-4c6d-92a1-8e3b5d7f9c0a.0" configVersion="a50c11f32d5eb24db2d8c8ce7c88d68c00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6" configVersion="ca432ca485079f4786f31539807c8f0400000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки.Form" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6.0" configVersion="144db5d90ef5c54cb415cd91387b440400000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца" id="a1f68251-f0f7-49be-bb20-1e48b6516191" configVersion="4e5b37d5f96b0642abffa5d99c2ebb8000000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца.Form" id="a1f68251-f0f7-49be-bb20-1e48b6516191.0" configVersion="8c2394f1e39a81408dd2e5dbd9fed18400000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаУспешноеВосхождение" id="d137cec1-80e1-40a7-9dc2-3165565ca75d" configVersion="2ecf51dabec35f438d1fdde130abfa9a00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаУспешноеВосхождение.Form" id="d137cec1-80e1-40a7-9dc2-3165565ca75d.0" configVersion="e67cfb1081a2f24ca7fa8ed2a8514e6200000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца" id="a1f68251-f0f7-49be-bb20-1e48b6516191" configVersion="ce56cbe29780244fa3779fb98436742200000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца.Form" id="a1f68251-f0f7-49be-bb20-1e48b6516191.0" configVersion="ebb03b7df4ec8946a47c34a4bb5bbd3c00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаУспешноеВосхождение" id="d137cec1-80e1-40a7-9dc2-3165565ca75d" configVersion="40b6e164d45c9343a2999bb5f02fae1200000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаУспешноеВосхождение.Form" id="d137cec1-80e1-40a7-9dc2-3165565ca75d.0" configVersion="706346d78dc77346ab61a9d782ec1c4300000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.ManagerModule" id="2999ecc1-a473-4398-8d48-3351ae5887e9.2" configVersion="ad368c57820e0042bf746e9f5776279b00000000"/>
 		<Metadata name="Enum.ВариантыДействийПротивников" id="93287cb5-98f1-43c6-8a33-46765c76592a" configVersion="e7eb2bbc42423444a0432747fd05f17b00000000">
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Сон" id="10c62972-d7a6-45ef-9d38-3f76fb0d0d74"/>

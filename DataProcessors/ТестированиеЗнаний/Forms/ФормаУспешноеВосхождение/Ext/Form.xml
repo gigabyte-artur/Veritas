@@ -55,6 +55,26 @@
 			<ContextMenu name="ДекорацияОткрытияКонтекстноеМеню" id="13"/>
 			<ExtendedTooltip name="ДекорацияОткрытияРасширеннаяПодсказка" id="14"/>
 		</LabelDecoration>
+		<Button name="ИгратьСнова" id="15">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<DefaultButton>true</DefaultButton>
+			<Height>1</Height>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.ИгратьСнова</CommandName>
+			<ExtendedTooltip name="ИгратьСноваРасширеннаяПодсказка" id="16"/>
+		</Button>
+		<LabelDecoration name="ДекорацияРазделитель" id="17">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияРазделительКонтекстноеМеню" id="18"/>
+			<ExtendedTooltip name="ДекорацияРазделительРасширеннаяПодсказка" id="19"/>
+		</LabelDecoration>
 		<Button name="ЗакрытьФорму" id="10">
 			<Type>UsualButton</Type>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -92,6 +112,25 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗакрытьФорму</Action>
+		</Command>
+		<Command name="ИгратьСнова" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Играть снова</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Играть снова</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.Битва</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ИгратьСнова</Action>
 		</Command>
 	</Commands>
 </Form>
