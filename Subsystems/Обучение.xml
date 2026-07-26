@@ -64,6 +64,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Щит</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.СобытияБоя</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВерсияКарт</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПараметровИгры</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

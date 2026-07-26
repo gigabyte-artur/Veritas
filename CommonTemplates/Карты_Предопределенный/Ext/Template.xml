@@ -424,7 +424,7 @@
     &lt;name&gt;МаякНаГоризонте&lt;/name&gt;
     &lt;title&gt;Маяк на горизонте&lt;/title&gt;
     &lt;description&gt;Убирите 1 случайный неправильный вариант ответа&lt;/description&gt;
-    &lt;cost&gt;1&lt;/cost&gt;
+    &lt;cost&gt;0&lt;/cost&gt;
   &lt;/card&gt; 
   &lt;card&gt;
     &lt;name&gt;Реванш&lt;/name&gt;
