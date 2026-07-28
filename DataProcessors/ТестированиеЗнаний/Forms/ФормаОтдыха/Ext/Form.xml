@@ -49,33 +49,64 @@
 			<ContextMenu name="ТекущееЗдоровьеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ТекущееЗдоровьеРасширеннаяПодсказка" id="9"/>
 		</LabelField>
-		<Button name="ВосстановитьЗдоровье" id="15">
-			<Type>UsualButton</Type>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.ВосстановитьЗдоровье</CommandName>
-			<ExtendedTooltip name="ВосстановитьЗдоровьеРасширеннаяПодсказка" id="16"/>
-		</Button>
-		<Button name="УдалитьКарту" id="17">
-			<Type>UsualButton</Type>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.УдалитьКарту</CommandName>
-			<ExtendedTooltip name="УдалитьКартуРасширеннаяПодсказка" id="18"/>
-		</Button>
-		<Button name="ЗакрытьФорму" id="10">
-			<Type>UsualButton</Type>
-			<HorizontalStretch>true</HorizontalStretch>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.ЗакрытьФорму</CommandName>
+		<UsualGroup name="ГруппаКоманды" id="22">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Закрыть</v8:content>
+					<v8:content>Группа команды</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedTooltip name="ЗакрытьФормуРасширеннаяПодсказка" id="11"/>
-		</Button>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа команды</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКомандыРасширеннаяПодсказка" id="23"/>
+			<ChildItems>
+				<Button name="ВосстановитьЗдоровье" id="15">
+					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.ВосстановитьЗдоровье</CommandName>
+					<ExtendedTooltip name="ВосстановитьЗдоровьеРасширеннаяПодсказка" id="16"/>
+				</Button>
+				<LabelDecoration name="ДекорацияРазделитель" id="19">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content> </v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияРазделительКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ДекорацияРазделительРасширеннаяПодсказка" id="21"/>
+				</LabelDecoration>
+				<Button name="УдалитьКарту" id="17">
+					<Type>UsualButton</Type>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.УдалитьКарту</CommandName>
+					<ExtendedTooltip name="УдалитьКартуРасширеннаяПодсказка" id="18"/>
+				</Button>
+				<Button name="ЗакрытьФорму" id="10">
+					<Type>UsualButton</Type>
+					<Visible>false</Visible>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.ЗакрытьФорму</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Закрыть</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ЗакрытьФормуРасширеннаяПодсказка" id="11"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -160,6 +191,7 @@
 					<v8:content>Восстановить здоровье</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>ВосстановитьЗдоровье</Action>
 		</Command>
 		<Command name="УдалитьКарту" id="3">
 			<Title>
