@@ -49,6 +49,20 @@
 			<ContextMenu name="ТекущееЗдоровьеКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="ТекущееЗдоровьеРасширеннаяПодсказка" id="9"/>
 		</LabelField>
+		<Button name="ВосстановитьЗдоровье" id="15">
+			<Type>UsualButton</Type>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.ВосстановитьЗдоровье</CommandName>
+			<ExtendedTooltip name="ВосстановитьЗдоровьеРасширеннаяПодсказка" id="16"/>
+		</Button>
+		<Button name="УдалитьКарту" id="17">
+			<Type>UsualButton</Type>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.УдалитьКарту</CommandName>
+			<ExtendedTooltip name="УдалитьКартуРасширеннаяПодсказка" id="18"/>
+		</Button>
 		<Button name="ЗакрытьФорму" id="10">
 			<Type>UsualButton</Type>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -102,6 +116,20 @@
 				</v8:NumberQualifiers>
 			</Type>
 		</Attribute>
+		<Attribute name="КартыИгрока" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Карты игрока</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueListType</v8:Type>
+			</Type>
+			<Settings xsi:type="v8:TypeDescription">
+				<v8:Type>cfg:CatalogRef.Карты</v8:Type>
+			</Settings>
+		</Attribute>
 	</Attributes>
 	<Commands>
 		<Command name="ЗакрытьФорму" id="1">
@@ -118,6 +146,34 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗакрытьФорму</Action>
+		</Command>
+		<Command name="ВосстановитьЗдоровье" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить здоровье</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить здоровье</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+		<Command name="УдалитьКарту" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить карту</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Удалить карту</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 	<Parameters>
@@ -140,6 +196,9 @@
 					<v8:AllowedSign>Any</v8:AllowedSign>
 				</v8:NumberQualifiers>
 			</Type>
+		</Parameter>
+		<Parameter name="КартыИгрока">
+			<Type/>
 		</Parameter>
 	</Parameters>
 </Form>
