@@ -6,6 +6,12 @@
 		<Description>Антидот</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="f8d73ab5-d36e-43cd-adfd-05380df488cd">
+		<Name>БурлящаяРеторта</Name>
+		<Code>000000038</Code>
+		<Description>Бурлящая реторта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="d1885922-9b30-43f2-8873-331e4b3e7c50">
 		<Name>ВолчийКлык</Name>
 		<Code>000000012</Code>
@@ -102,6 +108,12 @@
 		<Description>Мифриловое покрытие</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="ab7fcf46-04b3-411c-a643-e148e7d322e1">
+		<Name>МраморнаяТрибуна</Name>
+		<Code>000000039</Code>
+		<Description>Мраморная трибуна</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a016debc-ef8d-40f0-80c5-f51f26d9cc33">
 		<Name>ПарныеКлинки</Name>
 		<Code>000000013</Code>
@@ -130,6 +142,12 @@
 		<Name>Поплавок</Name>
 		<Code>000000035</Code>
 		<Description>Поплавок</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="ca2e9cff-bbd1-46cb-bc74-f85296731ba7">
+		<Name>Рапира</Name>
+		<Code>000000040</Code>
+		<Description>Рапира</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="e5c49f49-5200-4d80-a193-c761709b9e97">
@@ -174,6 +192,12 @@
 		<Description>Узда дракона</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="dfc95665-ab80-4556-b946-04b91207fcc3">
+		<Name>Фолиант</Name>
+		<Code>000000041</Code>
+		<Description>Фолиант</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="d9fb8a7e-6fe0-4698-aa71-3f8e368be8ef">
 		<Name>ЦепкийКрюк</Name>
 		<Code>000000010</Code>
@@ -184,6 +208,12 @@
 		<Name>ЧумнойНоситель</Name>
 		<Code>000000020</Code>
 		<Description>Чумной носитель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="67a09a8b-e11b-4202-ab33-14872d8e7d63">
+		<Name>ШипастыйБраслет</Name>
+		<Code>000000042</Code>
+		<Description>Шипастый браслет</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="95ddc2ae-d4da-45a8-83e0-4c267cdb4935">
