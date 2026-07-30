@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="20ec30e8-9076-4ce4-8a9c-3b4a236019af">
+		<Name>Алхимик</Name>
+		<Code>000000004</Code>
+		<Description>Алхимик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1312f76c-9997-402c-bb03-a4583d528568">
+		<Name>Архивариус</Name>
+		<Code>000000003</Code>
+		<Description>Архивариус</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="fa8fc373-320a-4079-a574-ce398136edec">
+		<Name>Дуэлянт</Name>
+		<Code>000000002</Code>
+		<Description>Дуэлянт</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b5626554-ad66-4133-abeb-fc1da3bf66f5">
+		<Name>Еретик</Name>
+		<Code>000000006</Code>
+		<Description>Еретик</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8cc4a4ae-6a6b-4d1c-b526-db1fc1dcbc24">
+		<Name>Оратор</Name>
+		<Code>000000007</Code>
+		<Description>Оратор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="3ae6e7cd-6706-45bf-a95e-85d2ec8de5e1">
+		<Name>Профессор</Name>
+		<Code>000000001</Code>
+		<Description>Профессор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6a8f618e-1235-4954-957a-78c5cddf7337">
+		<Name>Софист</Name>
+		<Code>000000005</Code>
+		<Description>Софист</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
