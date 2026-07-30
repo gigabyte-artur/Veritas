@@ -306,7 +306,7 @@
 	&lt;modifier&gt;
         &lt;name&gt;Рапира&lt;/name&gt;
         &lt;title&gt;Рапира&lt;/title&gt;
-        &lt;description&gt;Каждый верный ответ в бою наносит +1 урон противнику&lt;/description&gt;
+        &lt;description&gt;Каждый верный ответ в бою наносит +2 урона противнику&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;

@@ -38,13 +38,13 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="6cb002eb-c946-452d-b1d9-379715c91830">
+			<EnumValue uuid="4efe6d3e-626f-45c2-a8da-b0195966e82c">
 				<Properties>
-					<Name>ПрошлоПослеПравильногоОтвета</Name>
+					<Name>ВерныхОтветовПодряд</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Прошло после правильного ответа</v8:content>
+							<v8:content>Верных ответов подряд</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -57,6 +57,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Получено урона</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="6cb002eb-c946-452d-b1d9-379715c91830">
+				<Properties>
+					<Name>ПрошлоПослеПравильногоОтвета</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прошло после правильного ответа</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
