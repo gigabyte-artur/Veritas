@@ -38,13 +38,25 @@
 			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
 		</Properties>
 		<ChildObjects>
-			<EnumValue uuid="fd8f1b32-6437-42f9-8014-6cbe76fd0b82">
+			<EnumValue uuid="556b9551-e121-491c-b50e-d0f26789d55c">
 				<Properties>
-					<Name>РазыгранаКарта</Name>
+					<Name>АтакаИгрока</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Разыграна карта</v8:content>
+							<v8:content>Атака игрока</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="b3a50fc4-6b35-4dcc-9097-e702605c128a">
+				<Properties>
+					<Name>БазовыйУронПротивника</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Базовый урон противника</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -62,13 +74,13 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="556b9551-e121-491c-b50e-d0f26789d55c">
+			<EnumValue uuid="fd8f1b32-6437-42f9-8014-6cbe76fd0b82">
 				<Properties>
-					<Name>АтакаИгрока</Name>
+					<Name>РазыгранаКарта</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Атака игрока</v8:content>
+							<v8:content>Разыграна карта</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
