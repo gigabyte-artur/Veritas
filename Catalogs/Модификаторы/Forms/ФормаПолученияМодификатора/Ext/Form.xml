@@ -6,6 +6,7 @@
 	</Events>
 	<ChildItems>
 		<LabelDecoration name="ДекорацияПолученМодификатор" id="7">
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem" scale="100"/>
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -34,6 +35,9 @@
 		<LabelField name="Модификатор" id="1">
 			<DataPath>Модификатор</DataPath>
 			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<HorizontalStretch>true</HorizontalStretch>
 			<ContextMenu name="МодификаторКонтекстноеМеню" id="2"/>
 			<ExtendedTooltip name="МодификаторРасширеннаяПодсказка" id="3"/>
 		</LabelField>

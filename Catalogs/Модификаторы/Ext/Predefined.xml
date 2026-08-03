@@ -12,6 +12,12 @@
 		<Description>Бурлящая реторта</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="05b0b995-7b01-4ca5-b842-d66e68aa5855">
+		<Name>ВесыФортуны</Name>
+		<Code>000000043</Code>
+		<Description>Весы Фортуны</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="d1885922-9b30-43f2-8873-331e4b3e7c50">
 		<Name>ВолчийКлык</Name>
 		<Code>000000012</Code>
@@ -36,6 +42,12 @@
 		<Description>Дозорный ворон</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="224c3d81-01b6-4b10-96d8-a661177270f5">
+		<Name>ДырявыйКошель</Name>
+		<Code>000000044</Code>
+		<Description>Дырявый кошель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="677df5a8-8c86-489a-a3d8-3abf11d64666">
 		<Name>ЗаводнаяПерчатка</Name>
 		<Code>000000023</Code>
@@ -46,6 +58,12 @@
 		<Name>Заточка</Name>
 		<Code>000000007</Code>
 		<Description>Заточка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="6bf7725d-1b8d-48ea-aa21-f090f1aa6f9a">
+		<Name>ИзумрудныйГеккон</Name>
+		<Code>000000045</Code>
+		<Description>Изумрудный геккон</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="82f52628-4d02-44b2-ad19-d009f61ec01c">
@@ -94,6 +112,12 @@
 		<Name>ЛетучаяМышь</Name>
 		<Code>000000009</Code>
 		<Description>Летучая мышь</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="cb1c07bb-8309-4c47-8049-dc13a968d9b3">
+		<Name>МайкаЛидера</Name>
+		<Code>000000046</Code>
+		<Description>Майка лидера</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="5ec20229-b0df-4275-921e-deeb30466a22">
@@ -190,6 +214,12 @@
 		<Name>УздаДракона</Name>
 		<Code>000000032</Code>
 		<Description>Узда дракона</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="19d0f59e-e40b-4f08-87fa-bca9d9ce263d">
+		<Name>ФишкаКазино</Name>
+		<Code>000000047</Code>
+		<Description>Фишка казино</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="dfc95665-ab80-4556-b946-04b91207fcc3">
