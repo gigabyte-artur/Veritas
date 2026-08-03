@@ -334,7 +334,7 @@
 	&lt;modifier&gt;
         &lt;name&gt;ДырявыйКошель&lt;/name&gt;
         &lt;title&gt;Дырявый кошель&lt;/title&gt;
-        &lt;description&gt;В конце боя даёт случайное количество золота: от -15 до 45&lt;/description&gt;
+        &lt;description&gt;В конце боя даёт случайное количество золота: от -15 до 30&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;
