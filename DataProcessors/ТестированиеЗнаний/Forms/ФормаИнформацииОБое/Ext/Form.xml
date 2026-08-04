@@ -91,6 +91,9 @@
 							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ТихийРежимКонтекстноеМеню" id="134"/>
 							<ExtendedTooltip name="ТихийРежимРасширеннаяПодсказка" id="135"/>
+							<Events>
+								<Event name="OnChange">ТихийРежимПриИзменении</Event>
+							</Events>
 						</CheckBoxField>
 						<UsualGroup name="ГруппаЭффектыИгрока" id="1">
 							<Title>

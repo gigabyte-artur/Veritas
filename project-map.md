@@ -70,7 +70,7 @@
 | CommonForms | ФормаНастройкиПриложения | Только Form.xml |
 | CommonPictures | (32 картинки) | Бинарные данные |
 | CommonTemplates | (4 шаблона) | Только Template.dcs |
-| Constants | — | Каталог пуст |
+| Constants | ТихийРежим | Constants/ТихийРежим.xml (Булево, без BSL-модуля) |
 | InformationRegisters | ДостиженияПользователей | Только Form.xml |
 | InformationRegisters | РезультатыТестированияЗнаний | Только Form.xml |
 | Reports | ПрогрессОбучения | Только Form.xml |
