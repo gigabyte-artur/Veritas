@@ -60,6 +60,12 @@
 		<Description>Вдохновение</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="ee9763ce-a8a0-4434-b949-6b41732a374b">
+		<Name>ВесыЖизни</Name>
+		<Code>000000069</Code>
+		<Description>Весы жизни</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="17871302-4fe6-46fa-978b-3f7e2ae3b40a">
 		<Name>Взрыв</Name>
 		<Code>000000004</Code>

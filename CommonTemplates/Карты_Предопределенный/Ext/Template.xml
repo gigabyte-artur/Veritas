@@ -431,7 +431,13 @@
     &lt;title&gt;Реванш&lt;/title&gt;
     &lt;description&gt;Нанесите урон, равный полученному урону в этом бою (не более 15)&lt;/description&gt;
     &lt;cost&gt;1&lt;/cost&gt;
-  &lt;/card&gt;   
+  &lt;/card&gt;
+  &lt;card&gt;
+    &lt;name&gt;ВесыЖизни&lt;/name&gt;
+    &lt;title&gt;Весы жизни&lt;/title&gt;
+    &lt;description&gt;Случайно: вылечить 4 здоровья или получить 4 щитов. Если здоровье меньше половины, шанс лечения увеличивается в 1.5 раза&lt;/description&gt;
+    &lt;cost&gt;1&lt;/cost&gt;
+  &lt;/card&gt;    
 &lt;/cards&gt;</v8:content>
 						</v8:item>
 					</tl>

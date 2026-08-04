@@ -29,6 +29,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВероятностьПовтораНеправильного</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.LiveGig</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonForm.ФормаНастройкиПриложения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.ТихийРежим</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

@@ -316,6 +316,7 @@
 			<Constant>КоличествоЗаданийВРаунде</Constant>
 			<Constant>ВерсияПротивников</Constant>
 			<Constant>ВерсияМодификаторов</Constant>
+			<Constant>ТихийРежим</Constant>
 			<CommonForm>ФормаНастройкиПриложения</CommonForm>
 			<CommonForm>ФормаРабочийСтол</CommonForm>
 			<CommonForm>ФормаСообщение</CommonForm>
