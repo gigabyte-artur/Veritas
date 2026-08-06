@@ -62,6 +62,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="a96d3a93-356d-4023-9687-7c13270eccdb">
+				<Properties>
+					<Name>БойСПротивником</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Бой с противником</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="8311e58a-33e1-4706-9356-eeda3fd05647">
 				<Properties>
 					<Name>ДействиеПротивника</Name>
@@ -74,18 +86,6 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
-			<EnumValue uuid="fd8f1b32-6437-42f9-8014-6cbe76fd0b82">
-				<Properties>
-					<Name>РазыгранаКарта</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Разыграна карта</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-				</Properties>
-			</EnumValue>
 			<EnumValue uuid="2f3f07df-ecad-4740-ba67-d133a8976db4">
 				<Properties>
 					<Name>ПримененМодификатор</Name>
@@ -93,6 +93,18 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Применен модификатор</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="fd8f1b32-6437-42f9-8014-6cbe76fd0b82">
+				<Properties>
+					<Name>РазыгранаКарта</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Разыграна карта</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
