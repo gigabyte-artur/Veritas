@@ -770,6 +770,7 @@
 					<Type>
 						<v8:Type>cfg:EnumRef.ВариантыДействийПротивников</v8:Type>
 						<v8:Type>cfg:CatalogRef.Карты</v8:Type>
+						<v8:Type>cfg:CatalogRef.Модификаторы</v8:Type>
 					</Type>
 				</Column>
 				<Column name="Количество" id="3">
