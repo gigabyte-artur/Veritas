@@ -166,6 +166,18 @@
 									<DataPath>КартыНаВитрине.Энергия</DataPath>
 									<EditMode>EnterOnInput</EditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<Format>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+										</v8:item>
+									</Format>
+									<EditFormat>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ЧДЦ=0; ЧН=0</v8:content>
+										</v8:item>
+									</EditFormat>
 									<ContextMenu name="КартыНаВитринеЭнергияКонтекстноеМеню" id="111"/>
 									<ExtendedTooltip name="КартыНаВитринеЭнергияРасширеннаяПодсказка" id="112"/>
 								</InputField>
