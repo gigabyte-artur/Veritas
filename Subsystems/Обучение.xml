@@ -66,6 +66,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВерсияКарт</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПараметровИгры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Персонажи</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Открытия</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

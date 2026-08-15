@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Gigabyte</Vendor>
-			<Version>1.5.9</Version>
+			<Version>1.5.10</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -342,6 +342,7 @@
 			<DataProcessor>ОтображениеСправки</DataProcessor>
 			<DataProcessor>ПереносСборников</DataProcessor>
 			<DataProcessor>ТестированиеЗнаний</DataProcessor>
+			<DataProcessor>Открытия</DataProcessor>
 			<InformationRegister>ДанныеПользователей</InformationRegister>
 			<InformationRegister>ДостиженияПользователей</InformationRegister>
 			<InformationRegister>РезультатыТестированияЗнаний</InformationRegister>

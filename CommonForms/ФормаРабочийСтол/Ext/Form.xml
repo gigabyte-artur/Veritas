@@ -108,6 +108,23 @@
 				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
+		<LabelDecoration name="ДекорацияОткрытия" id="67">
+			<Visible>false</Visible>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Открытия</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<Hyperlink>true</Hyperlink>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="ДекорацияОткрытияКонтекстноеМеню" id="68"/>
+			<ExtendedTooltip name="ДекорацияОткрытияРасширеннаяПодсказка" id="69"/>
+			<Events>
+				<Event name="Click">ДекорацияОткрытияНажатие</Event>
+			</Events>
+		</LabelDecoration>
 		<LabelDecoration name="ДекорацияРазделитель1" id="10">
 			<Title formatted="false">
 				<v8:item>

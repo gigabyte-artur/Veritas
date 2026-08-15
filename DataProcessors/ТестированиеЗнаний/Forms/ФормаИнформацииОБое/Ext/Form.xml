@@ -511,27 +511,62 @@
 								<ExtendedTooltip name="ЖурналБояУправлениеПоискомРасширеннаяПодсказка" id="115"/>
 							</SearchControlAddition>
 							<ChildItems>
-								<InputField name="ЖурналБояСобытиеБоя" id="116">
-									<DataPath>ЖурналБоя.СобытиеБоя</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ЖурналБояСобытиеБояКонтекстноеМеню" id="117"/>
-									<ExtendedTooltip name="ЖурналБояСобытиеБояРасширеннаяПодсказка" id="118"/>
-								</InputField>
-								<InputField name="ЖурналБояСвязанныйОбъект" id="119">
-									<DataPath>ЖурналБоя.СвязанныйОбъект</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ЖурналБояСвязанныйОбъектКонтекстноеМеню" id="120"/>
-									<ExtendedTooltip name="ЖурналБояСвязанныйОбъектРасширеннаяПодсказка" id="121"/>
-								</InputField>
-								<InputField name="ЖурналБояКоличество" id="122">
-									<DataPath>ЖурналБоя.Количество</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-									<ContextMenu name="ЖурналБояКоличествоКонтекстноеМеню" id="123"/>
-									<ExtendedTooltip name="ЖурналБояКоличествоРасширеннаяПодсказка" id="124"/>
-								</InputField>
+								<ColumnGroup name="ЖурналБояГруппаСтроки" id="136">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Журнал боя группа строки</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Журнал боя группа строки</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ExtendedTooltip name="ЖурналБояГруппаСтрокиРасширеннаяПодсказка" id="137"/>
+									<ChildItems>
+										<InputField name="ЖурналБояСобытиеБоя" id="116">
+											<DataPath>ЖурналБоя.СобытиеБоя</DataPath>
+											<EditMode>EnterOnInput</EditMode>
+											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+											<ContextMenu name="ЖурналБояСобытиеБояКонтекстноеМеню" id="117"/>
+											<ExtendedTooltip name="ЖурналБояСобытиеБояРасширеннаяПодсказка" id="118"/>
+										</InputField>
+										<ColumnGroup name="ЖурналБояГруппаОбъектКоличество" id="138">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Журнал боя группа объект количество</v8:content>
+												</v8:item>
+											</Title>
+											<ToolTip>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Журнал боя группа объект количество</v8:content>
+												</v8:item>
+											</ToolTip>
+											<Group>Horizontal</Group>
+											<ExtendedTooltip name="ЖурналБояГруппаОбъектКоличествоРасширеннаяПодсказка" id="139"/>
+											<ChildItems>
+												<InputField name="ЖурналБояСвязанныйОбъект" id="119">
+													<DataPath>ЖурналБоя.СвязанныйОбъект</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ЖурналБояСвязанныйОбъектКонтекстноеМеню" id="120"/>
+													<ExtendedTooltip name="ЖурналБояСвязанныйОбъектРасширеннаяПодсказка" id="121"/>
+												</InputField>
+												<InputField name="ЖурналБояКоличество" id="122">
+													<DataPath>ЖурналБоя.Количество</DataPath>
+													<EditMode>EnterOnInput</EditMode>
+													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+													<ContextMenu name="ЖурналБояКоличествоКонтекстноеМеню" id="123"/>
+													<ExtendedTooltip name="ЖурналБояКоличествоРасширеннаяПодсказка" id="124"/>
+												</InputField>
+											</ChildItems>
+										</ColumnGroup>
+									</ChildItems>
+								</ColumnGroup>
 							</ChildItems>
 						</Table>
 					</ChildItems>
