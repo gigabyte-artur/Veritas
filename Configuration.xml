@@ -339,10 +339,10 @@
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
 			<DataProcessor>ОбновлениеСборников</DataProcessor>
+			<DataProcessor>Открытия</DataProcessor>
 			<DataProcessor>ОтображениеСправки</DataProcessor>
 			<DataProcessor>ПереносСборников</DataProcessor>
 			<DataProcessor>ТестированиеЗнаний</DataProcessor>
-			<DataProcessor>Открытия</DataProcessor>
 			<InformationRegister>ДанныеПользователей</InformationRegister>
 			<InformationRegister>ДостиженияПользователей</InformationRegister>
 			<InformationRegister>РезультатыТестированияЗнаний</InformationRegister>
