@@ -1,101 +1,181 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
-		<Table name="СписокКарт" id="1">
-			<Representation>List</Representation>
-			<CommandBarLocation>None</CommandBarLocation>
-			<Header>false</Header>
-			<HorizontalLines>false</HorizontalLines>
-			<VerticalLines>false</VerticalLines>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<DataPath>СписокКарт</DataPath>
-			<RowPictureDataPath>СписокКарт.Picture</RowPictureDataPath>
-			<ContextMenu name="СписокКартКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="СписокКартКоманднаяПанель" id="3"/>
-			<ExtendedTooltip name="СписокКартРасширеннаяПодсказка" id="4"/>
-			<SearchStringAddition name="СписокКартСтрокаПоиска" id="5">
-				<AdditionSource>
-					<Item>СписокКарт</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокКартСтрокаПоискаКонтекстноеМеню" id="6"/>
-				<ExtendedTooltip name="СписокКартСтрокаПоискаРасширеннаяПодсказка" id="7"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="СписокКартСостояниеПросмотра" id="8">
-				<AdditionSource>
-					<Item>СписокКарт</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокКартСостояниеПросмотраКонтекстноеМеню" id="9"/>
-				<ExtendedTooltip name="СписокКартСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="СписокКартУправлениеПоиском" id="11">
-				<AdditionSource>
-					<Item>СписокКарт</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокКартУправлениеПоискомКонтекстноеМеню" id="12"/>
-				<ExtendedTooltip name="СписокКартУправлениеПоискомРасширеннаяПодсказка" id="13"/>
-			</SearchControlAddition>
+		<UsualGroup name="ГруппаКарты" id="39">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа карты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа карты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКартыРасширеннаяПодсказка" id="40"/>
 			<ChildItems>
-				<InputField name="СписокКартЗначение" id="14">
-					<DataPath>СписокКарт.Value</DataPath>
+				<Table name="СписокКарт" id="1">
+					<Representation>List</Representation>
+					<TitleLocation>Top</TitleLocation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<Header>false</Header>
+					<HorizontalLines>false</HorizontalLines>
+					<VerticalLines>false</VerticalLines>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<DataPath>СписокКарт</DataPath>
+					<RowPictureDataPath>СписокКарт.Picture</RowPictureDataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Карты</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СписокКартКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="СписокКартКоманднаяПанель" id="3"/>
+					<ExtendedTooltip name="СписокКартРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="СписокКартСтрокаПоиска" id="5">
+						<AdditionSource>
+							<Item>СписокКарт</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокКартСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="СписокКартСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокКартСостояниеПросмотра" id="8">
+						<AdditionSource>
+							<Item>СписокКарт</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокКартСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="СписокКартСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокКартУправлениеПоиском" id="11">
+						<AdditionSource>
+							<Item>СписокКарт</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокКартУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="СписокКартУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="СписокКартЗначение" id="14">
+							<DataPath>СписокКарт.Value</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СписокКартЗначениеКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="СписокКартЗначениеРасширеннаяПодсказка" id="16"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<InputField name="СписокКартЗначениеОписание" id="33">
+					<DataPath>Items.СписокКарт.CurrentData.Value.Описание</DataPath>
 					<ReadOnly>true</ReadOnly>
-					<EditMode>EnterOnInput</EditMode>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="СписокКартЗначениеКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="СписокКартЗначениеРасширеннаяПодсказка" id="16"/>
+					<BackColor>style:ToolTipBackColor</BackColor>
+					<ContextMenu name="СписокКартЗначениеОписаниеКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="СписокКартЗначениеОписаниеРасширеннаяПодсказка" id="35"/>
 				</InputField>
 			</ChildItems>
-		</Table>
-		<Table name="СписокМодификаторов" id="17">
-			<Representation>List</Representation>
-			<CommandBarLocation>None</CommandBarLocation>
-			<Header>false</Header>
-			<HorizontalLines>false</HorizontalLines>
-			<VerticalLines>false</VerticalLines>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<DataPath>СписокМодификаторов</DataPath>
-			<RowPictureDataPath>СписокМодификаторов.Picture</RowPictureDataPath>
-			<ContextMenu name="СписокМодификаторовКонтекстноеМеню" id="18"/>
-			<AutoCommandBar name="СписокМодификаторовКоманднаяПанель" id="19"/>
-			<ExtendedTooltip name="СписокМодификаторовРасширеннаяПодсказка" id="20"/>
-			<SearchStringAddition name="СписокМодификаторовСтрокаПоиска" id="21">
-				<AdditionSource>
-					<Item>СписокМодификаторов</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокМодификаторовСтрокаПоискаКонтекстноеМеню" id="22"/>
-				<ExtendedTooltip name="СписокМодификаторовСтрокаПоискаРасширеннаяПодсказка" id="23"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="СписокМодификаторовСостояниеПросмотра" id="24">
-				<AdditionSource>
-					<Item>СписокМодификаторов</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокМодификаторовСостояниеПросмотраКонтекстноеМеню" id="25"/>
-				<ExtendedTooltip name="СписокМодификаторовСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="СписокМодификаторовУправлениеПоиском" id="27">
-				<AdditionSource>
-					<Item>СписокМодификаторов</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокМодификаторовУправлениеПоискомКонтекстноеМеню" id="28"/>
-				<ExtendedTooltip name="СписокМодификаторовУправлениеПоискомРасширеннаяПодсказка" id="29"/>
-			</SearchControlAddition>
+		</UsualGroup>
+		<UsualGroup name="ГруппаМодификаторы" id="41">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа модификаторы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа модификаторы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="42"/>
 			<ChildItems>
-				<InputField name="СписокМодификаторовЗначение" id="30">
-					<DataPath>СписокМодификаторов.Value</DataPath>
-					<ReadOnly>true</ReadOnly>
-					<EditMode>EnterOnInput</EditMode>
+				<Table name="СписокМодификаторов" id="17">
+					<Representation>List</Representation>
+					<TitleLocation>Top</TitleLocation>
+					<CommandBarLocation>None</CommandBarLocation>
+					<Header>false</Header>
+					<HorizontalLines>false</HorizontalLines>
+					<VerticalLines>false</VerticalLines>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<DataPath>СписокМодификаторов</DataPath>
+					<RowPictureDataPath>СписокМодификаторов.Picture</RowPictureDataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Модификаторы</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="СписокМодификаторовКонтекстноеМеню" id="18"/>
+					<AutoCommandBar name="СписокМодификаторовКоманднаяПанель" id="19"/>
+					<ExtendedTooltip name="СписокМодификаторовРасширеннаяПодсказка" id="20"/>
+					<SearchStringAddition name="СписокМодификаторовСтрокаПоиска" id="21">
+						<AdditionSource>
+							<Item>СписокМодификаторов</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокМодификаторовСтрокаПоискаКонтекстноеМеню" id="22"/>
+						<ExtendedTooltip name="СписокМодификаторовСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокМодификаторовСостояниеПросмотра" id="24">
+						<AdditionSource>
+							<Item>СписокМодификаторов</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокМодификаторовСостояниеПросмотраКонтекстноеМеню" id="25"/>
+						<ExtendedTooltip name="СписокМодификаторовСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокМодификаторовУправлениеПоиском" id="27">
+						<AdditionSource>
+							<Item>СписокМодификаторов</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="СписокМодификаторовУправлениеПоискомКонтекстноеМеню" id="28"/>
+						<ExtendedTooltip name="СписокМодификаторовУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<InputField name="СписокМодификаторовЗначение" id="30">
+							<DataPath>СписокМодификаторов.Value</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="СписокМодификаторовЗначениеКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="СписокМодификаторовЗначениеРасширеннаяПодсказка" id="32"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<InputField name="СписокМодификаторовЗначениеОписание" id="36">
+					<DataPath>Items.СписокМодификаторов.CurrentData.Value.Описание</DataPath>
+					<TitleLocation>None</TitleLocation>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
 					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-					<ContextMenu name="СписокМодификаторовЗначениеКонтекстноеМеню" id="31"/>
-					<ExtendedTooltip name="СписокМодификаторовЗначениеРасширеннаяПодсказка" id="32"/>
+					<BackColor>style:ToolTipBackColor</BackColor>
+					<ContextMenu name="СписокМодификаторовЗначениеОписаниеКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="СписокМодификаторовЗначениеОписаниеРасширеннаяПодсказка" id="38"/>
 				</InputField>
 			</ChildItems>
-		</Table>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
