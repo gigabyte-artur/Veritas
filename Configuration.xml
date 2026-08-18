@@ -277,6 +277,7 @@
 			<CommonPicture>ДостижениеУстановленоПятнадцатьСборниковВыкл</CommonPicture>
 			<CommonPicture>ДостиженияСтоВопросовВкл</CommonPicture>
 			<CommonPicture>Звезда</CommonPicture>
+			<CommonPicture>ЗвездаСерая</CommonPicture>
 			<CommonPicture>Золото</CommonPicture>
 			<CommonPicture>ИскатьВИнтернете</CommonPicture>
 			<CommonPicture>Карты</CommonPicture>
@@ -287,6 +288,13 @@
 			<CommonPicture>ОбщаяКартинкаЛучшиеТестированные</CommonPicture>
 			<CommonPicture>ОбщаяКартинкаОбновлениеСборников</CommonPicture>
 			<CommonPicture>ОбщаяКартинкаТестирование</CommonPicture>
+			<CommonPicture>Персонаж_Алхимик</CommonPicture>
+			<CommonPicture>Персонаж_Архивариус</CommonPicture>
+			<CommonPicture>Персонаж_Дуэлянт</CommonPicture>
+			<CommonPicture>Персонаж_Еретик</CommonPicture>
+			<CommonPicture>Персонаж_Оратор</CommonPicture>
+			<CommonPicture>Персонаж_Профессор</CommonPicture>
+			<CommonPicture>Персонаж_Софист</CommonPicture>
 			<CommonPicture>ПодсистемаАдминистрированиеЛого</CommonPicture>
 			<CommonPicture>ПодсистемаОбучениеЛого</CommonPicture>
 			<CommonPicture>Подсказка</CommonPicture>
@@ -298,7 +306,6 @@
 			<CommonPicture>Сундук</CommonPicture>
 			<CommonPicture>Щит</CommonPicture>
 			<CommonPicture>Энергия</CommonPicture>
-			<CommonPicture>ЗвездаСерая</CommonPicture>
 			<SessionParameter>ТекущийПользователь</SessionParameter>
 			<Role>ПолныеПрава</Role>
 			<CommonTemplate>Карты_Предопределенный</CommonTemplate>

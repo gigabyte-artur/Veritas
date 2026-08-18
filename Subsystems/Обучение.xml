@@ -67,6 +67,12 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыПараметровИгры</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Персонажи</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.Открытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Архивариус</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Алхимик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Еретик</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Профессор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Софист</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Оратор</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

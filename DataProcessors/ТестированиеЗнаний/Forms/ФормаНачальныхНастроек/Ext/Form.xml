@@ -34,13 +34,68 @@
 			<ContextMenu name="СборникКонтекстноеМеню" id="8"/>
 			<ExtendedTooltip name="СборникРасширеннаяПодсказка" id="9"/>
 		</InputField>
-		<InputField name="Персонаж" id="39">
+		<UsualGroup name="ГруппаПерсонаж" id="45">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа персонаж</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа персонаж</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПерсонажРасширеннаяПодсказка" id="46"/>
+			<ChildItems>
+				<Button name="ПредыдущийПерсонаж" id="47">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<CommandName>Form.Command.ПредыдущийПерсонаж</CommandName>
+					<ExtendedTooltip name="ПредыдущийПерсонажРасширеннаяПодсказка" id="48"/>
+				</Button>
+				<PictureDecoration name="ДекорацияКартинкаПерсонаж" id="42">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация картинка персонаж</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<Picture>
+						<xr:Ref>CommonPicture.Персонаж_Профессор</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияКартинкаПерсонажКонтекстноеМеню" id="43"/>
+					<ExtendedTooltip name="ДекорацияКартинкаПерсонажРасширеннаяПодсказка" id="44"/>
+				</PictureDecoration>
+				<Button name="СледующийПерсонаж" id="49">
+					<Type>UsualButton</Type>
+					<Representation>Picture</Representation>
+					<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+					<GroupVerticalAlign>Center</GroupVerticalAlign>
+					<CommandName>Form.Command.СледующийПерсонаж</CommandName>
+					<ExtendedTooltip name="СледующийПерсонажРасширеннаяПодсказка" id="50"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="Персонаж" id="39">
 			<DataPath>Персонаж</DataPath>
-			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
-			<AutoMarkIncomplete>true</AutoMarkIncomplete>
+			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<HorizontalStretch>true</HorizontalStretch>
 			<ContextMenu name="ПерсонажКонтекстноеМеню" id="40"/>
 			<ExtendedTooltip name="ПерсонажРасширеннаяПодсказка" id="41"/>
-		</InputField>
+		</LabelField>
 		<Button name="Применить" id="10">
 			<Type>UsualButton</Type>
 			<DefaultButton>true</DefaultButton>
@@ -303,6 +358,44 @@
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
 			<Action>СнятьВсе</Action>
+		</Command>
+		<Command name="СледующийПерсонаж" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующий персонаж</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующий персонаж</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveRight</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>СледующийПерсонаж</Action>
+		</Command>
+		<Command name="ПредыдущийПерсонаж" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий персонаж</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Предыдущий персонаж</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.MoveLeft</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПредыдущийПерсонаж</Action>
 		</Command>
 	</Commands>
 	<Parameters>
