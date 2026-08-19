@@ -101,7 +101,7 @@
 					<Title>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Забрать 5 золота</v8:content>
+							<v8:content>Забрать 15 золота</v8:content>
 						</v8:item>
 					</Title>
 					<ExtendedTooltip name="КомандаНаградаЗолотоРасширеннаяПодсказка" id="2"/>
