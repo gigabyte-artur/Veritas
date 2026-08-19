@@ -90,7 +90,7 @@
 					<ContextMenu name="ДекорацияТестированиеКартинкаКонтекстноеМеню" id="2"/>
 					<ExtendedTooltip name="ДекорацияТестированиеКартинкаРасширеннаяПодсказка" id="3"/>
 					<Events>
-						<Event name="Click">ДекорацияТестированиеНажатие</Event>
+						<Event name="Click">ДекорацияТестированиеКартинкаНажатие</Event>
 					</Events>
 				</PictureDecoration>
 				<LabelDecoration name="ДекорацияТестированиеНадпись" id="4">
@@ -237,6 +237,7 @@
 			</ChildItems>
 		</UsualGroup>
 		<LabelDecoration name="ДекорацияРазделитель2" id="16">
+			<Visible>false</Visible>
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -247,6 +248,7 @@
 			<ExtendedTooltip name="ДекорацияРазделитель2РасширеннаяПодсказка" id="18"/>
 		</LabelDecoration>
 		<UsualGroup name="ГруппаЛучшиеРезультаты" id="27">
+			<Visible>false</Visible>
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>

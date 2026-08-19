@@ -138,6 +138,12 @@
 		<Description>Мраморная трибуна</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="17f4f16d-6d45-451f-b79a-64a5ed9b07f8">
+		<Name>НеразменныйГрош</Name>
+		<Code>000000048</Code>
+		<Description>Неразменный грош</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="a016debc-ef8d-40f0-80c5-f51f26d9cc33">
 		<Name>ПарныеКлинки</Name>
 		<Code>000000013</Code>
