@@ -73,8 +73,8 @@
 		<Metadata name="Catalog.Сборники.ObjectModule" id="52c44cc3-5d26-4684-b79e-464958bf1145.0" configVersion="44ab0c47c9179142806be0ab31feb64c00000000"/>
 		<Metadata name="CommonForm.ФормаНастройкиПриложения" id="17baa129-574e-4dad-9c25-13149731fe0d" configVersion="ead4c7e53e7e6b459ba595db3ffc979000000000"/>
 		<Metadata name="CommonForm.ФормаНастройкиПриложения.Form" id="17baa129-574e-4dad-9c25-13149731fe0d.0" configVersion="f90be534c5e3d34483c8e13c3e4b94fe00000000"/>
-		<Metadata name="CommonForm.ФормаРабочийСтол" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38" configVersion="62ac42ddae9353459166ad9a15e79c8e00000000"/>
-		<Metadata name="CommonForm.ФормаРабочийСтол.Form" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38.0" configVersion="ecad5d0d8d891b4d8a54e3a938ae69e600000000"/>
+		<Metadata name="CommonForm.ФормаРабочийСтол" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38" configVersion="1617bc4db943d2459c5b9fed22d237b300000000"/>
+		<Metadata name="CommonForm.ФормаРабочийСтол.Form" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38.0" configVersion="e722bcdef935554fbe323a4a8619a35d00000000"/>
 		<Metadata name="CommonForm.ФормаСообщение" id="c19c4fb1-b80c-41e9-83cb-f791a83d5499" configVersion="97de1e2df0bfbe40b43a31cd4dabe5bd00000000"/>
 		<Metadata name="CommonForm.ФормаСообщение.Form" id="c19c4fb1-b80c-41e9-83cb-f791a83d5499.0" configVersion="4ee3624f15e35341bff264442dc279ff00000000"/>
 		<Metadata name="CommonModule.ВосхождениеСервер" id="599fdd77-8d60-40ca-845c-10d59b19ed23" configVersion="6e6bde3eacd60e44839911469ba8d46a00000000"/>
@@ -141,6 +141,8 @@
 		<Metadata name="CommonPicture.ОбщаяКартинкаОбновлениеСборников.Picture" id="eeaa70bc-70bd-47eb-80d3-aeaca673fbca.0" configVersion="ae391c5d33cf614881b5d83b3e80551700000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинкаТестирование" id="de13d84c-d200-4b73-9c3b-87124ecf7481" configVersion="8bbc5e02dde7f74baf4a897c24ea311600000000"/>
 		<Metadata name="CommonPicture.ОбщаяКартинкаТестирование.Picture" id="de13d84c-d200-4b73-9c3b-87124ecf7481.0" configVersion="e1133908d8747849813f2947f1aee56700000000"/>
+		<Metadata name="CommonPicture.Открытия" id="5e97ce65-8eb9-4303-8f02-2eb50484d5bd" configVersion="ac2e36d9bc1ae54d8bdac811b37feeae00000000"/>
+		<Metadata name="CommonPicture.Открытия.Picture" id="5e97ce65-8eb9-4303-8f02-2eb50484d5bd.0" configVersion="3874696ba1e20744a30855de46902bf400000000"/>
 		<Metadata name="CommonPicture.Персонаж_Алхимик" id="4423654f-6772-4c21-9406-6092cc1a1ffb" configVersion="e76cc901c0b77541863e44736f7efcaf00000000"/>
 		<Metadata name="CommonPicture.Персонаж_Алхимик.Picture" id="4423654f-6772-4c21-9406-6092cc1a1ffb.0" configVersion="d2f9cec568e6b44391256011dda7825700000000"/>
 		<Metadata name="CommonPicture.Персонаж_Архивариус" id="5ff2f94b-3325-4c58-8207-031636488eff" configVersion="cbc8a5fbe130b34284fdb3fcea3e6f4300000000"/>
@@ -185,7 +187,7 @@
 		<Metadata name="CommonTemplate.Противники_Предопределенный.Template" id="3e97d02d-2084-4f2a-986f-7582a0a0bb2b.0" configVersion="8bf3f4bf5154fd438ec5726b6dbb746800000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c" configVersion="caeaa2ae3ebc014cab0614174fac1d7a00000000"/>
 		<Metadata name="CommonTemplate.Сборник_Предопределенный.Template" id="07d7d3c9-9d83-4ef3-9dc5-17ea60bbd63c.0" configVersion="0b714e52ab0f3b41bfd433bd0eed148000000000"/>
-		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="f9331e4340d7bf45bbf3d7da9b33f6b900000000"/>
+		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="fe1861277d7a114bad2262da964f64da00000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="94da00e73b65164486750cb351d08d5600000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="56cdd0c766ab9a4e801950d08b67242100000000"/>
 		<Metadata name="Configuration.Veritas.Logo" id="0b9e596f-64ab-4534-9194-db0f43f0a494.1" configVersion="8832499ec6b84d48907eeef4da3a78e600000000"/>

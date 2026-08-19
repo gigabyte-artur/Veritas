@@ -108,22 +108,69 @@
 				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
-		<LabelDecoration name="ДекорацияОткрытия" id="67">
+		<LabelDecoration name="ДекорацияРазделитель5" id="73">
 			<Title formatted="false">
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Открытия</v8:content>
+					<v8:content> </v8:content>
 				</v8:item>
 			</Title>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<Hyperlink>true</Hyperlink>
-			<HorizontalAlign>Center</HorizontalAlign>
-			<ContextMenu name="ДекорацияОткрытияКонтекстноеМеню" id="68"/>
-			<ExtendedTooltip name="ДекорацияОткрытияРасширеннаяПодсказка" id="69"/>
-			<Events>
-				<Event name="Click">ДекорацияОткрытияНажатие</Event>
-			</Events>
+			<ContextMenu name="ДекорацияРазделитель5КонтекстноеМеню" id="74"/>
+			<ExtendedTooltip name="ДекорацияРазделитель5РасширеннаяПодсказка" id="75"/>
 		</LabelDecoration>
+		<UsualGroup name="ГруппаОткрытия" id="76">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа открытия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа открытия</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаОткрытияРасширеннаяПодсказка" id="77"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияОткрытияКартинка" id="70">
+					<HorizontalStretch>true</HorizontalStretch>
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тестирование</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Hyperlink>true</Hyperlink>
+					<Picture>
+						<xr:Ref>CommonPicture.Открытия</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<FileDragMode>AsFile</FileDragMode>
+					<ContextMenu name="ДекорацияОткрытияКартинкаКонтекстноеМеню" id="71"/>
+					<ExtendedTooltip name="ДекорацияОткрытияКартинкаРасширеннаяПодсказка" id="72"/>
+					<Events>
+						<Event name="Click">ДекорацияОткрытияКартинкаНажатие</Event>
+					</Events>
+				</PictureDecoration>
+				<LabelDecoration name="ДекорацияОткрытия" id="67">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Открытия</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<ContextMenu name="ДекорацияОткрытияКонтекстноеМеню" id="68"/>
+					<ExtendedTooltip name="ДекорацияОткрытияРасширеннаяПодсказка" id="69"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
 		<LabelDecoration name="ДекорацияРазделитель1" id="10">
 			<Title formatted="false">
 				<v8:item>
