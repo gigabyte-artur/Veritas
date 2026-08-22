@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.19">
+	<Item id="957ecfd5-69ef-42da-a185-b7ade95b027e">
+		<Name>АбсолютныйНоль</Name>
+		<Code>000000070</Code>
+		<Description>Абсолютный ноль</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="bed2c59f-8c76-424e-a386-428d85293594">
 		<Name>АдаптивнаяТактика</Name>
 		<Code>000000059</Code>
@@ -78,6 +84,18 @@
 		<Description>Гамбит</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="9022b0d4-ef4a-43b6-a5d7-c40fb150d436">
+		<Name>ГлотокВоды</Name>
+		<Code>000000071</Code>
+		<Description>Глоток воды</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="37b51337-a55c-4935-b7a4-fa0fc7b0d574">
+		<Name>ГравитационныйКоллапс</Name>
+		<Code>000000072</Code>
+		<Description>Гравитационный коллапс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="81c32cfe-04d0-4808-a5eb-ec22b255446c">
 		<Name>ГрязныйКонтракт</Name>
 		<Code>000000034</Code>
@@ -150,6 +168,18 @@
 		<Description>Исчезновение</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="be89ea9b-79b5-46d2-b7bc-552bff90512b">
+		<Name>Каскад</Name>
+		<Code>000000073</Code>
+		<Description>Каскад</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="91903509-f65c-4ffd-801f-bf01ec0e6f64">
+		<Name>КогнитивныйДиссонанс</Name>
+		<Code>000000074</Code>
+		<Description>Когнитивный диссонанс</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="97f58716-560e-4775-870d-e7a8af96684b">
 		<Name>Конденсатор</Name>
 		<Code>000000062</Code>
@@ -204,6 +234,18 @@
 		<Description>Новый рассвет</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="4ff7099f-78f9-4346-babf-a60e3b37ea4a">
+		<Name>Облигация</Name>
+		<Code>000000075</Code>
+		<Description>Облигация</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="37f2ec52-4225-45b7-950c-a31e35c8ab5f">
+		<Name>Обман</Name>
+		<Code>000000076</Code>
+		<Description>Обман</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="c90c57d5-91d4-4b91-82d5-8dcd13dbcc9e">
 		<Name>ОбходнойПуть</Name>
 		<Code>000000033</Code>
@@ -240,6 +282,12 @@
 		<Description>Очищение</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="de88c2d9-d6e1-4530-8e6a-aebaa165ab7f">
+		<Name>ПаническаяАтака</Name>
+		<Code>000000077</Code>
+		<Description>Паническая атака</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="3826a240-292a-4f14-af80-ee01f4786bd1">
 		<Name>Пасхалка</Name>
 		<Code>000000017</Code>
@@ -258,10 +306,40 @@
 		<Description>Передышка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="c3b08a77-d77b-49bd-9cb6-956e8c4e17d5">
+		<Name>ПереоценкаЦенностей</Name>
+		<Code>000000078</Code>
+		<Description>Переоценка ценностей</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="40fb338f-1f02-48b6-bd8c-3111a7265576">
+		<Name>ПереработкаДуш</Name>
+		<Code>000000087</Code>
+		<Description>Переработка душ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="05ecc9b6-d001-41d9-ad52-4d6558a0b6a4">
+		<Name>Перераспределение</Name>
+		<Code>000000079</Code>
+		<Description>Перераспределение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="920bfed2-1d02-4deb-8b6a-836937f7a8e6">
 		<Name>Поправка</Name>
 		<Code>000000021</Code>
 		<Description>Поправка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="c23829ee-016d-4e36-943b-4717affa1ac8">
+		<Name>ПоследнийДовод</Name>
+		<Code>000000080</Code>
+		<Description>Последний довод</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="1ee0aa23-f565-4176-8399-99952da9d759">
+		<Name>ПраведныйГнев</Name>
+		<Code>000000081</Code>
+		<Description>Праведный гнев</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="0e8a4d38-9bb0-4f55-b939-6f4e2b51c224">
@@ -312,6 +390,18 @@
 		<Description>Свежий взгляд</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="e846169e-60c9-4272-9fb8-04c8ff72f09b">
+		<Name>СдвигГраней</Name>
+		<Code>000000082</Code>
+		<Description>Сдвиг граней</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="194c94a4-690c-4129-a3f8-674ca95dea6b">
+		<Name>СжечьМосты</Name>
+		<Code>000000088</Code>
+		<Description>Сжечь мосты</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="214d37ce-18ca-406d-b01c-bd4c72e2c44a">
 		<Name>СинтетическийТоксин</Name>
 		<Code>000000042</Code>
@@ -328,6 +418,24 @@
 		<Name>СтеклянныйЩит</Name>
 		<Code>000000045</Code>
 		<Description>Стеклянный щит</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="360c343e-7735-4675-828c-2abe9a5e1bd4">
+		<Name>ТемнаяСделка</Name>
+		<Code>000000083</Code>
+		<Description>Темная сделка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5ba9e77d-1f8a-414a-b301-26f4c8cc0db6">
+		<Name>ТоксичныеЧернила</Name>
+		<Code>000000084</Code>
+		<Description>Токсичные чернила</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5c6292ed-8e12-40c5-8c5d-c5721b40b5c0">
+		<Name>ТоксичныйСгусток</Name>
+		<Code>000000085</Code>
+		<Description>Токсичный сгусток</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="6c129d08-3225-449b-83a8-20765b1182b4">
@@ -372,6 +480,12 @@
 		<Description>Фокус</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="b3406d6b-e053-452c-b768-ecc10835fb85">
+		<Name>ЦелительноеПрикосновение</Name>
+		<Code>000000086</Code>
+		<Description>Целительное прикосновение</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="dbcb0b29-2e0f-4728-b936-53b9b5db5ffc">
 		<Name>Черновик</Name>
 		<Code>000000058</Code>
@@ -390,10 +504,22 @@
 		<Description>Чит-код</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="3be3d2a1-3865-4063-8fcd-173995500d88">
+		<Name>ШепотИзБездны</Name>
+		<Code>000000090</Code>
+		<Description>Шёпот из бездны</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 	<Item id="17958a4e-6b6a-43cd-83db-de0c7588b64a">
 		<Name>ЩитИМеч</Name>
 		<Code>000000022</Code>
 		<Description>Щит и меч</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5fca2e18-da2a-47c1-b466-c40da27f847b">
+		<Name>ЩитИстины</Name>
+		<Code>000000089</Code>
+		<Description>Щит истины</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
 	<Item id="ea7933ee-254b-4eb4-96b3-ac6ddfd6ee59">

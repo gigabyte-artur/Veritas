@@ -230,6 +230,18 @@
 					<Comment/>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="1e9fab44-b1cf-4ccf-b254-d2499135034c">
+				<Properties>
+					<Name>ШепотИзБездны</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Шепот из бездны</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

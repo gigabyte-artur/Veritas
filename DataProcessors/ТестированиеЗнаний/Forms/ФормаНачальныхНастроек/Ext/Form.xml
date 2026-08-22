@@ -97,19 +97,39 @@
 			<ContextMenu name="ПерсонажКонтекстноеМеню" id="40"/>
 			<ExtendedTooltip name="ПерсонажРасширеннаяПодсказка" id="41"/>
 		</LabelField>
-		<Button name="Применить" id="10">
-			<Type>UsualButton</Type>
-			<DefaultButton>true</DefaultButton>
-			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-			<CommandName>Form.Command.Применить</CommandName>
+		<UsualGroup name="ГруппаПрименить" id="51">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Начать!</v8:content>
+					<v8:content>Группа применить</v8:content>
 				</v8:item>
 			</Title>
-			<ExtendedTooltip name="ПрименитьРасширеннаяПодсказка" id="11"/>
-		</Button>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа применить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>NormalSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПрименитьРасширеннаяПодсказка" id="52"/>
+			<ChildItems>
+				<Button name="Применить" id="10">
+					<Type>UsualButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<CommandName>Form.Command.Применить</CommandName>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начать!</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ПрименитьРасширеннаяПодсказка" id="11"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
 		<UsualGroup name="ГруппаКнопкиСборники" id="37">
 			<Title>
 				<v8:item>
