@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаЗакрыть" id="25">
@@ -18,6 +20,7 @@
 						<v8:content>Потвердить</v8:content>
 					</v8:item>
 				</Title>
+				<ButtonImportance>Main</ButtonImportance>
 				<ExtendedTooltip name="ФормаПодтвердитьПокупкиРасширеннаяПодсказка" id="47"/>
 			</Button>
 		</ChildItems>
@@ -100,12 +103,15 @@
 				</v8:item>
 			</ToolTip>
 			<Group>Vertical</Group>
+			<Representation>WeakSeparation</Representation>
 			<ExtendedTooltip name="ГруппаКартыРасширеннаяПодсказка" id="62"/>
 			<ChildItems>
 				<Table name="КартыНаВитрине" id="84">
 					<Representation>List</Representation>
 					<CommandBarLocation>None</CommandBarLocation>
 					<ReadOnly>true</ReadOnly>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -158,6 +164,7 @@
 								<InputField name="КартыНаВитринеКарта" id="97">
 									<DataPath>КартыНаВитрине.Карта</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<ContextMenu name="КартыНаВитринеКартаКонтекстноеМеню" id="98"/>
 									<ExtendedTooltip name="КартыНаВитринеКартаРасширеннаяПодсказка" id="99"/>
@@ -165,6 +172,7 @@
 								<InputField name="КартыНаВитринеЭнергия" id="110">
 									<DataPath>КартыНаВитрине.Энергия</DataPath>
 									<EditMode>EnterOnInput</EditMode>
+									<AutoEditMode>true</AutoEditMode>
 									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 									<Format>
 										<v8:item>
@@ -186,6 +194,7 @@
 						<InputField name="КартыНаВитринеЦена" id="100">
 							<DataPath>КартыНаВитрине.Цена</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>5</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<Format>
@@ -238,6 +247,7 @@
 				</v8:item>
 			</ToolTip>
 			<HorizontalStretch>true</HorizontalStretch>
+			<Group>HorizontalIfPossible</Group>
 			<HorizontalAlign>Center</HorizontalAlign>
 			<Representation>None</Representation>
 			<ShowTitle>false</ShowTitle>
@@ -267,12 +277,15 @@
 			</ToolTip>
 			<Group>Vertical</Group>
 			<HorizontalAlign>Center</HorizontalAlign>
+			<Representation>WeakSeparation</Representation>
 			<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="60"/>
 			<ChildItems>
 				<Table name="МодификаторыНаВитрине" id="27">
 					<Representation>List</Representation>
 					<CommandBarLocation>None</CommandBarLocation>
 					<ReadOnly>true</ReadOnly>
+					<RowSelectionMode>Cell</RowSelectionMode>
+					<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -309,6 +322,7 @@
 						<InputField name="МодификаторыНаВитринеМодифкатор" id="40">
 							<DataPath>МодификаторыНаВитрине.Модификатор</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<ContextMenu name="МодификаторыНаВитринеМодифкаторКонтекстноеМеню" id="41"/>
 							<ExtendedTooltip name="МодификаторыНаВитринеМодифкаторРасширеннаяПодсказка" id="42"/>
@@ -316,6 +330,7 @@
 						<InputField name="МодификаторыНаВитринеЦена" id="43">
 							<DataPath>МодификаторыНаВитрине.Цена</DataPath>
 							<EditMode>EnterOnInput</EditMode>
+							<AutoEditMode>true</AutoEditMode>
 							<Width>5</Width>
 							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 							<Format>

@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.19">
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<WindowOpeningMode>DontBlock</WindowOpeningMode>
+	<Group>Vertical</Group>
 	<CommandBarLocation>None</CommandBarLocation>
+	<ShowCommandBar>false</ShowCommandBar>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
@@ -34,6 +37,8 @@
 							<v8:content>Группа страница бой</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ГруппаСтраницаБойРасширеннаяПодсказка" id="128"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаЭтап" id="95">
@@ -88,7 +93,6 @@
 								</v8:item>
 							</ToolTip>
 							<ToolTipRepresentation>Button</ToolTipRepresentation>
-							<CheckBoxType>Auto</CheckBoxType>
 							<ContextMenu name="ТихийРежимКонтекстноеМеню" id="134"/>
 							<ExtendedTooltip name="ТихийРежимРасширеннаяПодсказка" id="135"/>
 							<Events>
@@ -104,6 +108,7 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Representation>WeakSeparation</Representation>
 							<ExtendedTooltip name="ГруппаЭффектыИгрокаРасширеннаяПодсказка" id="2"/>
 							<ChildItems>
 								<LabelField name="Персонаж" id="140">
@@ -115,8 +120,8 @@
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<RowSelectionMode>Cell</RowSelectionMode>
 									<Header>false</Header>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<DataPath>ЭффектыИгрокаТЗ</DataPath>
 									<SearchStringLocation>None</SearchStringLocation>
 									<RowFilter xsi:nil="true"/>
@@ -152,6 +157,7 @@
 											<DataPath>ЭффектыИгрокаТЗ.ВидПараметра</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ЭффектыИгрокаТЗВидПараметраКонтекстноеМеню" id="67"/>
 											<ExtendedTooltip name="ЭффектыИгрокаТЗВидПараметраРасширеннаяПодсказка" id="68"/>
@@ -160,6 +166,7 @@
 											<DataPath>ЭффектыИгрокаТЗ.ЗначениеПараметра</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<Format>
 												<v8:item>
@@ -189,6 +196,7 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Representation>WeakSeparation</Representation>
 							<ExtendedTooltip name="ГруппаЭффектыПротивникаРасширеннаяПодсказка" id="7"/>
 							<ChildItems>
 								<LabelField name="Противник" id="143">
@@ -200,8 +208,8 @@
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<RowSelectionMode>Cell</RowSelectionMode>
 									<Header>false</Header>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<DataPath>ЭффектыПротивникаТЗ</DataPath>
 									<SearchStringLocation>None</SearchStringLocation>
 									<RowFilter xsi:nil="true"/>
@@ -237,6 +245,7 @@
 											<DataPath>ЭффектыПротивникаТЗ.ВидПараметра</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ЭффектыПротивникаТЗВидПараметраКонтекстноеМеню" id="73"/>
 											<ExtendedTooltip name="ЭффектыПротивникаТЗВидПараметраРасширеннаяПодсказка" id="74"/>
@@ -245,6 +254,7 @@
 											<DataPath>ЭффектыПротивникаТЗ.ЗначениеПараметра</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<Format>
 												<v8:item>
@@ -274,14 +284,15 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Representation>WeakSeparation</Representation>
 							<ExtendedTooltip name="ГруппаМодификаторыРасширеннаяПодсказка" id="12"/>
 							<ChildItems>
 								<Table name="МодификаторыТЗ" id="13">
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<RowSelectionMode>Cell</RowSelectionMode>
 									<Header>false</Header>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<DataPath>МодификаторыТЗ</DataPath>
 									<SearchStringLocation>None</SearchStringLocation>
 									<RowFilter xsi:nil="true"/>
@@ -317,6 +328,7 @@
 											<DataPath>МодификаторыТЗ.Модификатор</DataPath>
 											<EditMode>EnterOnInput</EditMode>
 											<ShowInHeader>false</ShowInHeader>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="МодификаторыТЗМодификаторКонтекстноеМеню" id="79"/>
 											<ExtendedTooltip name="МодификаторыТЗМодификаторРасширеннаяПодсказка" id="80"/>
@@ -350,6 +362,8 @@
 							<v8:content>Группа страница карты</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ГруппаСтраницаКартыРасширеннаяПодсказка" id="130"/>
 					<ChildItems>
 						<UsualGroup name="ГруппаКартыКолоды" id="16">
@@ -361,6 +375,7 @@
 							</Title>
 							<HorizontalStretch>true</HorizontalStretch>
 							<Group>Vertical</Group>
+							<Representation>WeakSeparation</Representation>
 							<ShowTitle>false</ShowTitle>
 							<ExtendedTooltip name="ГруппаКартыКолодыРасширеннаяПодсказка" id="17"/>
 							<ChildItems>
@@ -368,8 +383,8 @@
 									<CommandBarLocation>None</CommandBarLocation>
 									<ReadOnly>true</ReadOnly>
 									<AutoMaxWidth>false</AutoMaxWidth>
+									<RowSelectionMode>Cell</RowSelectionMode>
 									<Header>false</Header>
-									<UseAlternationRowColor>true</UseAlternationRowColor>
 									<DataPath>КартыТЗ</DataPath>
 									<SearchStringLocation>None</SearchStringLocation>
 									<RowFilter xsi:nil="true"/>
@@ -425,6 +440,7 @@
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
 													<ShowInFooter>false</ShowInFooter>
+													<AutoEditMode>true</AutoEditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="КартыТЗКартаКонтекстноеМеню" id="82"/>
 													<ExtendedTooltip name="КартыТЗКартаРасширеннаяПодсказка" id="83"/>
@@ -434,6 +450,7 @@
 													<ReadOnly>true</ReadOnly>
 													<EditMode>EnterOnInput</EditMode>
 													<ShowInHeader>false</ShowInHeader>
+													<AutoEditMode>true</AutoEditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<Format>
 														<v8:item>
@@ -481,13 +498,17 @@
 							<v8:content>Группа страница журнал боя</v8:content>
 						</v8:item>
 					</ToolTip>
+					<Group>Vertical</Group>
+					<ScrollOnCompress>false</ScrollOnCompress>
 					<ExtendedTooltip name="ГруппаСтраницаЖурналБояРасширеннаяПодсказка" id="132"/>
 					<ChildItems>
 						<Table name="ЖурналБоя" id="103">
 							<Representation>List</Representation>
 							<CommandBarLocation>None</CommandBarLocation>
 							<ReadOnly>true</ReadOnly>
+							<RowSelectionMode>Cell</RowSelectionMode>
 							<Header>false</Header>
+							<UseAlternationRowColorBWA>false</UseAlternationRowColorBWA>
 							<AutoInsertNewRow>true</AutoInsertNewRow>
 							<EnableStartDrag>true</EnableStartDrag>
 							<EnableDrag>true</EnableDrag>
@@ -539,6 +560,7 @@
 										<InputField name="ЖурналБояСобытиеБоя" id="116">
 											<DataPath>ЖурналБоя.СобытиеБоя</DataPath>
 											<EditMode>EnterOnInput</EditMode>
+											<AutoEditMode>true</AutoEditMode>
 											<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 											<ContextMenu name="ЖурналБояСобытиеБояКонтекстноеМеню" id="117"/>
 											<ExtendedTooltip name="ЖурналБояСобытиеБояРасширеннаяПодсказка" id="118"/>
@@ -562,6 +584,7 @@
 												<InputField name="ЖурналБояСвязанныйОбъект" id="119">
 													<DataPath>ЖурналБоя.СвязанныйОбъект</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="ЖурналБояСвязанныйОбъектКонтекстноеМеню" id="120"/>
 													<ExtendedTooltip name="ЖурналБояСвязанныйОбъектРасширеннаяПодсказка" id="121"/>
@@ -569,6 +592,7 @@
 												<InputField name="ЖурналБояКоличество" id="122">
 													<DataPath>ЖурналБоя.Количество</DataPath>
 													<EditMode>EnterOnInput</EditMode>
+													<AutoEditMode>true</AutoEditMode>
 													<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
 													<ContextMenu name="ЖурналБояКоличествоКонтекстноеМеню" id="123"/>
 													<ExtendedTooltip name="ЖурналБояКоличествоРасширеннаяПодсказка" id="124"/>
