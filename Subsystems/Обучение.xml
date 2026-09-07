@@ -73,6 +73,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Профессор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Софист</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Оратор</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыГоловоломок</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

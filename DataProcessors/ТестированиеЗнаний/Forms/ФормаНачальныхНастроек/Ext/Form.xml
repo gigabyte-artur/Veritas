@@ -65,6 +65,8 @@
 					<ExtendedTooltip name="ПредыдущийПерсонажРасширеннаяПодсказка" id="48"/>
 				</Button>
 				<PictureDecoration name="ДекорацияКартинкаПерсонаж" id="42">
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<HorizontalStretch>true</HorizontalStretch>
 					<Title formatted="false">
 						<v8:item>
 							<v8:lang>ru</v8:lang>

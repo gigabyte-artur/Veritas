@@ -42,6 +42,7 @@
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаУспешноеВосхождение</Form>
 			<Form>ФормаКолесоСудьбы</Form>
+			<Form>ФормаМеморикс</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

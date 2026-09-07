@@ -51,6 +51,32 @@
 					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="f8692c93-4248-4a3e-a463-83af0a65d184">
+				<Properties>
+					<Name>Головоломка</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Головоломка</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5f067ddc-4286-410d-8db5-2d3d5f9b8cf2">
+				<Properties>
+					<Name>КолесоСудьбы</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Колесо судьбы</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
 			<EnumValue uuid="223778b7-6545-441b-af35-33039de2a936">
 				<Properties>
 					<Name>Отдых</Name>
@@ -97,19 +123,6 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>Торговец</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Color>auto</Color>
-				</Properties>
-			</EnumValue>
-			<EnumValue uuid="5f067ddc-4286-410d-8db5-2d3d5f9b8cf2">
-				<Properties>
-					<Name>КолесоСудьбы</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Колесо судьбы</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
