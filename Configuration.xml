@@ -350,6 +350,7 @@
 			<Catalog>Противники</Catalog>
 			<Catalog>Сборники</Catalog>
 			<Enum>ВариантыДействийПротивников</Enum>
+			<Enum>ВидыГоловоломок</Enum>
 			<Enum>ВидыПараметровИгроков</Enum>
 			<Enum>ВидыПараметровИгры</Enum>
 			<Enum>ВидыЭтаповВосхождения</Enum>
@@ -358,7 +359,6 @@
 			<Enum>СложностиПротивников</Enum>
 			<Enum>СложностиСборников</Enum>
 			<Enum>СобытияБоя</Enum>
-			<Enum>ВидыГоловоломок</Enum>
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
 			<DataProcessor>ОбновлениеСборников</DataProcessor>

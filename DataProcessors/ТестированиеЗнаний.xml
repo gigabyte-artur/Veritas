@@ -43,6 +43,7 @@
 			<Form>ФормаУспешноеВосхождение</Form>
 			<Form>ФормаКолесоСудьбы</Form>
 			<Form>ФормаМеморикс</Form>
+			<Form>ФормаПятнашки</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
