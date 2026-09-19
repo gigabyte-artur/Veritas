@@ -288,4 +288,10 @@
 		<Description>Ядовитый след</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="9f2a7c4e-8b1d-4e3f-a5c6-d7e8f9a0b1c2">
+		<Name>ПокернаяПерчатка</Name>
+		<Code>000000049</Code>
+		<Description>Покерная перчатка</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
