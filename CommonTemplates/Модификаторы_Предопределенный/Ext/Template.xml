@@ -28,7 +28,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;version&gt;5&lt;/version&gt;
+&lt;version&gt;6&lt;/version&gt;
 &lt;modifiers&gt;
     &lt;modifier&gt;
         &lt;name&gt;ВолчийКлык&lt;/name&gt;
@@ -384,6 +384,13 @@
         &lt;name&gt;ВторичнаяПереработка&lt;/name&gt;
         &lt;title&gt;Вторичная переработка&lt;/title&gt;
         &lt;description&gt;Каждый раз, когда игрок сбрасывает карту, получает 1 золота&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ВырваннаяСтраница&lt;/name&gt;
+        &lt;title&gt;Вырванная страница&lt;/title&gt;
+        &lt;description&gt;В начале хода 1 неправильный ответ заменяется на ответ из другого сборника&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;

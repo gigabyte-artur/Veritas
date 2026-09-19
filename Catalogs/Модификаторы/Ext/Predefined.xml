@@ -306,4 +306,10 @@
 		<Description>Вторичная переработка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="3d5f7a9b-1c2e-4f6a-8b9c-0d1e2f3a4b5c">
+		<Name>ВырваннаяСтраница</Name>
+		<Code>000000052</Code>
+		<Description>Вырванная страница</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
