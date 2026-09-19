@@ -28,7 +28,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;version&gt;6&lt;/version&gt;
+&lt;version&gt;7&lt;/version&gt;
 &lt;modifiers&gt;
     &lt;modifier&gt;
         &lt;name&gt;ВолчийКлык&lt;/name&gt;
@@ -391,6 +391,13 @@
         &lt;name&gt;ВырваннаяСтраница&lt;/name&gt;
         &lt;title&gt;Вырванная страница&lt;/title&gt;
         &lt;description&gt;В начале хода 1 неправильный ответ заменяется на ответ из другого сборника&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ЗолотоеЯйцо&lt;/name&gt;
+        &lt;title&gt;Золотое яйцо&lt;/title&gt;
+        &lt;description&gt;В конце боя даёт 5% от всего золота (округление вниз)&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;

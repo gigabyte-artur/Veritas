@@ -312,4 +312,10 @@
 		<Description>Вырванная страница</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="9b1c3d5e-7f2a-4b6c-8d0e-1f2a3b4c5d6e">
+		<Name>ЗолотоеЯйцо</Name>
+		<Code>000000053</Code>
+		<Description>Золотое яйцо</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
