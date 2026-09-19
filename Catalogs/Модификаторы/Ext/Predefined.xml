@@ -318,4 +318,10 @@
 		<Description>Золотое яйцо</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="5c7e9f1b-3a4d-5e6f-8a9b-0c1d2e3f4a5b">
+		<Name>Маятник</Name>
+		<Code>000000054</Code>
+		<Description>Маятник</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
