@@ -324,4 +324,10 @@
 		<Description>Маятник</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="7d9f1b3e-5c7a-4f6b-8d9e-0a1b2c3d4e5f">
+		<Name>ПотертыйСапог</Name>
+		<Code>000000055</Code>
+		<Description>Потертый сапог</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>
