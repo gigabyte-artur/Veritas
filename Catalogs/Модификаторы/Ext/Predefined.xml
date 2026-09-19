@@ -294,4 +294,10 @@
 		<Description>Покерная перчатка</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="5e8b1f3a-2c4d-4e6f-8a9b-0c1d2e3f4a5b">
+		<Name>ПереплетныйНож</Name>
+		<Code>000000050</Code>
+		<Description>Переплетный нож</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

@@ -28,7 +28,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;version&gt;3&lt;/version&gt;
+&lt;version&gt;4&lt;/version&gt;
 &lt;modifiers&gt;
     &lt;modifier&gt;
         &lt;name&gt;ВолчийКлык&lt;/name&gt;
@@ -370,6 +370,13 @@
         &lt;name&gt;ПокернаяПерчатка&lt;/name&gt;
         &lt;title&gt;Покерная перчатка&lt;/title&gt;
         &lt;description&gt;Если в руке одновременно есть карты Единички, Тройки и Пятёрки — они разыгрываются мгновенно и бесплатно&lt;/description&gt;
+        &lt;positive&gt;true&lt;/positive&gt;
+        &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
+    &lt;/modifier&gt;
+	&lt;modifier&gt;
+        &lt;name&gt;ПереплетныйНож&lt;/name&gt;
+        &lt;title&gt;Переплетный нож&lt;/title&gt;
+        &lt;description&gt;Каждый раз, когда игрок сбрасывает карту, наносит противнику 2 урона&lt;/description&gt;
         &lt;positive&gt;true&lt;/positive&gt;
         &lt;defaultDuration&gt;&lt;/defaultDuration&gt;
     &lt;/modifier&gt;
