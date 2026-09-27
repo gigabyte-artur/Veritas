@@ -262,8 +262,8 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПросмотраКартинки.Form" id="32960b60-6fe8-4a22-8c7c-80057ab16cf6.0" configVersion="6a1c6f71dbdefc46b75ecda46a94e70d00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПятнашки" id="079cc494-be5d-4621-aba0-92354c036989" configVersion="a2e8033888899b429067f84029e7486e00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПятнашки.Form" id="079cc494-be5d-4621-aba0-92354c036989.0" configVersion="19c904044f71254aba1d04634179a34300000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТаблицаШульте" id="1f06a89a-3cc8-4276-91f6-cc37497f5310" configVersion="6e90cd825e3c3747a1968743c425429d00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТаблицаШульте.Form" id="1f06a89a-3cc8-4276-91f6-cc37497f5310.0" configVersion="22ac04ebfc0c4546832a4b3d4963867200000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТаблицаШульте" id="1f06a89a-3cc8-4276-91f6-cc37497f5310" configVersion="fa9d135c8556e54ab21d3309f3ebdcac00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТаблицаШульте.Form" id="1f06a89a-3cc8-4276-91f6-cc37497f5310.0" configVersion="dcd5a7a2d5bf6049833eb2c3b38d47b500000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца" id="a1f68251-f0f7-49be-bb20-1e48b6516191" configVersion="817029d8d6b21b42af10880fb7c4eac700000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаТорговца.Form" id="a1f68251-f0f7-49be-bb20-1e48b6516191.0" configVersion="c584126b6fbcc944986871b62581f35500000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаУспешноеВосхождение" id="d137cec1-80e1-40a7-9dc2-3165565ca75d" configVersion="9e3afeff2fd5ea4797ab8eab70858b0f00000000"/>
