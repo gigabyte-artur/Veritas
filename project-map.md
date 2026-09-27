@@ -2,7 +2,7 @@
 
 **Версия:** 1.5.7  
 **Дата актуализации:** 04.08.2026  
-**Всего BSL-модулей:** 51
+**Всего BSL-модулей:** 52
 
 ---
 
@@ -56,6 +56,7 @@
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаПораженияВосхождение/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаПросмотраКартинки/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаПятнашки/Ext/Form/Module.bsl |
+| DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаТаблицаШульте/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаТорговца/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаУспешноеВосхождение/Ext/Form/Module.bsl |
 | Enums | ВидыПараметровИгроков | Enums/ВидыПараметровИгроков/Ext/ManagerModule.bsl |
@@ -86,7 +87,7 @@
 
 | Тип модуля | Количество |
 |---|---|
-| Модуль формы | 34 |
+| Модуль формы | 35 |
 | Модуль менеджера | 9 |
 | Модуль объекта | 3 |
 | Общий модуль | 6 |

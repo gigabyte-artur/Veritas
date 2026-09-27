@@ -64,6 +64,19 @@
 					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="8c488092-baae-440b-9ef6-6009ff5980cd">
+				<Properties>
+					<Name>ТаблицаШульте</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Таблица Шульте</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

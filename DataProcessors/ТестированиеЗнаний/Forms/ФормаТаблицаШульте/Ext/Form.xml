@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="ДекорацияОписание" id="65">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<TextColor>style:FieldSelectionBackColor</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Таблица Шульте: Вам нужно последовательно указать все цифры за отведенное время</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияОписаниеКонтекстноеМеню" id="66"/>
+			<ExtendedTooltip name="ДекорацияОписаниеРасширеннаяПодсказка" id="67"/>
+		</LabelDecoration>
+		<LabelField name="ТекстВремени" id="68">
+			<DataPath>ТекстВремени</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ТекстВремениКонтекстноеМеню" id="69"/>
+			<ExtendedTooltip name="ТекстВремениРасширеннаяПодсказка" id="70"/>
+		</LabelField>
+		<LabelField name="ТекстОшибок" id="71">
+			<DataPath>ТекстОшибок</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="ТекстОшибокКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="ТекстОшибокРасширеннаяПодсказка" id="73"/>
+		</LabelField>
+		<UsualGroup name="ГруппаКолонки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа колонки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа колонки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКолонкиРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаКолонка1" id="3" DisplayImportance="VeryLow">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка1РасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Button name="Опция1" id="13">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция1</CommandName>
+							<ExtendedTooltip name="Опция1РасширеннаяПодсказка" id="14"/>
+						</Button>
+						<Button name="Опция2" id="15">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция2</CommandName>
+							<ExtendedTooltip name="Опция2РасширеннаяПодсказка" id="16"/>
+						</Button>
+						<Button name="Опция3" id="17">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция3</CommandName>
+							<ExtendedTooltip name="Опция3РасширеннаяПодсказка" id="18"/>
+						</Button>
+						<Button name="Опция4" id="19">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция4</CommandName>
+							<ExtendedTooltip name="Опция4РасширеннаяПодсказка" id="20"/>
+						</Button>
+						<Button name="Опция5" id="21">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция5</CommandName>
+							<ExtendedTooltip name="Опция5РасширеннаяПодсказка" id="22"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка2" id="5" DisplayImportance="VeryLow">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка2РасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<Button name="Опция6" id="23">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция6</CommandName>
+							<ExtendedTooltip name="Опция6РасширеннаяПодсказка" id="24"/>
+						</Button>
+						<Button name="Опция7" id="25">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция7</CommandName>
+							<ExtendedTooltip name="Опция7РасширеннаяПодсказка" id="26"/>
+						</Button>
+						<Button name="Опция8" id="27">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция8</CommandName>
+							<ExtendedTooltip name="Опция8РасширеннаяПодсказка" id="28"/>
+						</Button>
+						<Button name="Опция9" id="29">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция9</CommandName>
+							<ExtendedTooltip name="Опция9РасширеннаяПодсказка" id="30"/>
+						</Button>
+						<Button name="Опция10" id="31">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция10</CommandName>
+							<ExtendedTooltip name="Опция10РасширеннаяПодсказка" id="32"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка3" id="7" DisplayImportance="VeryLow">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка3РасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<Button name="Опция11" id="33">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция11</CommandName>
+							<ExtendedTooltip name="Опция11РасширеннаяПодсказка" id="34"/>
+						</Button>
+						<Button name="Опция12" id="35">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция12</CommandName>
+							<ExtendedTooltip name="Опция12РасширеннаяПодсказка" id="36"/>
+						</Button>
+						<Button name="Опция13" id="37">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция13</CommandName>
+							<ExtendedTooltip name="Опция13РасширеннаяПодсказка" id="38"/>
+						</Button>
+						<Button name="Опция14" id="39">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция14</CommandName>
+							<ExtendedTooltip name="Опция14РасширеннаяПодсказка" id="40"/>
+						</Button>
+						<Button name="Опция15" id="41">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция15</CommandName>
+							<ExtendedTooltip name="Опция15РасширеннаяПодсказка" id="42"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка4" id="9" DisplayImportance="VeryLow">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка4РасширеннаяПодсказка" id="10"/>
+					<ChildItems>
+						<Button name="Опция16" id="43">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция16</CommandName>
+							<ExtendedTooltip name="Опция16РасширеннаяПодсказка" id="44"/>
+						</Button>
+						<Button name="Опция17" id="45">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция17</CommandName>
+							<ExtendedTooltip name="Опция17РасширеннаяПодсказка" id="46"/>
+						</Button>
+						<Button name="Опция18" id="47">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция18</CommandName>
+							<ExtendedTooltip name="Опция18РасширеннаяПодсказка" id="48"/>
+						</Button>
+						<Button name="Опция19" id="49">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция19</CommandName>
+							<ExtendedTooltip name="Опция19РасширеннаяПодсказка" id="50"/>
+						</Button>
+						<Button name="Опция20" id="51">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция20</CommandName>
+							<ExtendedTooltip name="Опция20РасширеннаяПодсказка" id="52"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаКолонка5" id="11" DisplayImportance="VeryLow">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа колонка1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКолонка5РасширеннаяПодсказка" id="12"/>
+					<ChildItems>
+						<Button name="Опция21" id="53">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция21</CommandName>
+							<ExtendedTooltip name="Опция21РасширеннаяПодсказка" id="54"/>
+						</Button>
+						<Button name="Опция22" id="55">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция22</CommandName>
+							<ExtendedTooltip name="Опция22РасширеннаяПодсказка" id="56"/>
+						</Button>
+						<Button name="Опция23" id="57">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция23</CommandName>
+							<ExtendedTooltip name="Опция23РасширеннаяПодсказка" id="58"/>
+						</Button>
+						<Button name="Опция24" id="59">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция24</CommandName>
+							<ExtendedTooltip name="Опция24РасширеннаяПодсказка" id="60"/>
+						</Button>
+						<Button name="Опция25" id="61">
+							<Type>UsualButton</Type>
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<CommandName>Form.Command.Опция25</CommandName>
+							<ExtendedTooltip name="Опция25РасширеннаяПодсказка" id="62"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="Сдаться" id="63">
+			<Type>UsualButton</Type>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.Сдаться</CommandName>
+			<ExtendedTooltip name="СдатьсяРасширеннаяПодсказка" id="64"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ТестированиеЗнаний</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ОсталосьВремени" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Осталось времени</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Поле" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поле</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="НомерЯчейки" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номер ячейки</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Число" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Число</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>10</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="СледующееЧисло" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Следующее число</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Сделаноошибок" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сделано ошибок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДопустимоОшибок" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Допустимо ошибок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВсегоЧисел" id="7">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Всего чисел</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстВремени" id="8">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст времени</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ТекстОшибок" id="9">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текст ошибок</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Опция1" id="1">
+			<Action>Опция1</Action>
+		</Command>
+		<Command name="Опция2" id="2">
+			<Action>Опция2</Action>
+		</Command>
+		<Command name="Опция3" id="3">
+			<Action>Опция3</Action>
+		</Command>
+		<Command name="Опция4" id="4">
+			<Action>Опция4</Action>
+		</Command>
+		<Command name="Опция5" id="5">
+			<Action>Опция5</Action>
+		</Command>
+		<Command name="Опция6" id="6">
+			<Action>Опция6</Action>
+		</Command>
+		<Command name="Опция7" id="7">
+			<Action>Опция7</Action>
+		</Command>
+		<Command name="Опция8" id="8">
+			<Action>Опция8</Action>
+		</Command>
+		<Command name="Опция9" id="9">
+			<Action>Опция9</Action>
+		</Command>
+		<Command name="Опция10" id="10">
+			<Action>Опция10</Action>
+		</Command>
+		<Command name="Опция11" id="11">
+			<Action>Опция11</Action>
+		</Command>
+		<Command name="Опция12" id="12">
+			<Action>Опция12</Action>
+		</Command>
+		<Command name="Опция13" id="13">
+			<Action>Опция13</Action>
+		</Command>
+		<Command name="Опция14" id="14">
+			<Action>Опция14</Action>
+		</Command>
+		<Command name="Опция15" id="15">
+			<Action>Опция15</Action>
+		</Command>
+		<Command name="Опция16" id="16">
+			<Action>Опция16</Action>
+		</Command>
+		<Command name="Опция17" id="17">
+			<Action>Опция17</Action>
+		</Command>
+		<Command name="Опция18" id="18">
+			<Action>Опция18</Action>
+		</Command>
+		<Command name="Опция19" id="19">
+			<Action>Опция19</Action>
+		</Command>
+		<Command name="Опция20" id="20">
+			<Action>Опция20</Action>
+		</Command>
+		<Command name="Опция21" id="21">
+			<Action>Опция21</Action>
+		</Command>
+		<Command name="Опция22" id="22">
+			<Action>Опция22</Action>
+		</Command>
+		<Command name="Опция23" id="23">
+			<Action>Опция23</Action>
+		</Command>
+		<Command name="Опция24" id="24">
+			<Action>Опция24</Action>
+		</Command>
+		<Command name="Опция25" id="25">
+			<Action>Опция25</Action>
+		</Command>
+		<Command name="Сдаться" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдаться</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдаться</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сдаться</Action>
+		</Command>
+	</Commands>
+</Form>

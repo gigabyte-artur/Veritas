@@ -44,6 +44,7 @@
 			<Form>ФормаКолесоСудьбы</Form>
 			<Form>ФормаМеморикс</Form>
 			<Form>ФормаПятнашки</Form>
+			<Form>ФормаТаблицаШульте</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
