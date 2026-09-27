@@ -71,12 +71,12 @@
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb" configVersion="3ee1771257ebc841af52200d73aebb4b00000000"/>
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента.Form" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb.0" configVersion="8fd211e8fb9e7f48bf3e3d92684aa46600000000"/>
 		<Metadata name="Catalog.Сборники.ObjectModule" id="52c44cc3-5d26-4684-b79e-464958bf1145.0" configVersion="850165683b13e44fb796be775b9d99c200000000"/>
-		<Metadata name="CommonForm.ФормаЗапускаГололомки" id="51b0015d-d423-444a-a1a1-7da051eda943" configVersion="67a3a39bec354f41a9fc4f4087269af100000000"/>
-		<Metadata name="CommonForm.ФормаЗапускаГололомки.Form" id="51b0015d-d423-444a-a1a1-7da051eda943.0" configVersion="417d10634ccae740b323f8c221995e2e00000000"/>
+		<Metadata name="CommonForm.ФормаЗапускаГоловоломки" id="51b0015d-d423-444a-a1a1-7da051eda943" configVersion="6ae449437647024bb0c2ca4926d65b2300000000"/>
+		<Metadata name="CommonForm.ФормаЗапускаГоловоломки.Form" id="51b0015d-d423-444a-a1a1-7da051eda943.0" configVersion="417d10634ccae740b323f8c221995e2e00000000"/>
 		<Metadata name="CommonForm.ФормаНастройкиПриложения" id="17baa129-574e-4dad-9c25-13149731fe0d" configVersion="c29fa0e58d92684fb602951f0b2ad6e300000000"/>
 		<Metadata name="CommonForm.ФормаНастройкиПриложения.Form" id="17baa129-574e-4dad-9c25-13149731fe0d.0" configVersion="136891f87edb8349b4ef597c85f5b8a200000000"/>
-		<Metadata name="CommonForm.ФормаРабочийСтол" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38" configVersion="e05a9caaa7c38547bfc266735e73aec800000000"/>
-		<Metadata name="CommonForm.ФормаРабочийСтол.Form" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38.0" configVersion="56de05c41659a846847fd5e694b36f0600000000"/>
+		<Metadata name="CommonForm.ФормаРабочийСтол" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38" configVersion="f3015920101be045bd9bad53bff5bcc900000000"/>
+		<Metadata name="CommonForm.ФормаРабочийСтол.Form" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38.0" configVersion="270dcc339f84ae499ab8139314aa5bca00000000"/>
 		<Metadata name="CommonForm.ФормаСообщение" id="c19c4fb1-b80c-41e9-83cb-f791a83d5499" configVersion="4d48c4638a1f1846954a7ccccf7c9d1500000000"/>
 		<Metadata name="CommonForm.ФормаСообщение.Form" id="c19c4fb1-b80c-41e9-83cb-f791a83d5499.0" configVersion="6289aec080860b40983b6b6b2a9a466200000000"/>
 		<Metadata name="CommonModule.ВосхождениеСервер" id="599fdd77-8d60-40ca-845c-10d59b19ed23" configVersion="b1765113477e624d8bbb25e426ce664b00000000"/>
@@ -95,8 +95,8 @@
 		<Metadata name="CommonPicture.LiveGig.Picture" id="5c151d73-3076-4afc-8b0e-9b5303125dc9.0" configVersion="87a56eb50c1c2049a417366f2861f00400000000"/>
 		<Metadata name="CommonPicture.Битва" id="5d5de731-700d-4be7-90fa-aeab93193047" configVersion="b3385cca10686a46843730057f0c84b900000000"/>
 		<Metadata name="CommonPicture.Битва.Picture" id="5d5de731-700d-4be7-90fa-aeab93193047.0" configVersion="4690c328b29d714394b9ccceb044661d00000000"/>
-		<Metadata name="CommonPicture.ГоловоломкиЛого" id="3d393933-bb6b-4cec-a850-592014688d9a" configVersion="c72a294d7b403c40a4074394776b902a00000000"/>
-		<Metadata name="CommonPicture.ГоловоломкиЛого.Picture" id="3d393933-bb6b-4cec-a850-592014688d9a.0" configVersion="f9de8abbe4b5054d95dcc80abcd2196200000000"/>
+		<Metadata name="CommonPicture.ГоловоломкиЛого" id="3d393933-bb6b-4cec-a850-592014688d9a" configVersion="427903f5468e574da05f0d7ca16de42200000000"/>
+		<Metadata name="CommonPicture.ГоловоломкиЛого.Picture" id="3d393933-bb6b-4cec-a850-592014688d9a.0" configVersion="7b13a77fe0682b4fa84d7c083c38a7bb00000000"/>
 		<Metadata name="CommonPicture.ДостижениеДвадцатьВопросовЗаШестьдесятСекундВкл" id="1102ceb7-1ec7-44bb-8aa1-463db3e5f626" configVersion="601caa73d4ff5f4f9e63437fbf64244e00000000"/>
 		<Metadata name="CommonPicture.ДостижениеДвадцатьВопросовЗаШестьдесятСекундВкл.Picture" id="1102ceb7-1ec7-44bb-8aa1-463db3e5f626.0" configVersion="616298638816fb42a2b462f686ec35e600000000"/>
 		<Metadata name="CommonPicture.ДостижениеДвадцатьВопросовЗаШестьдесятСекундВыкл" id="f9fe6d8d-3d53-4eea-b9ce-ca17a06db6a8" configVersion="7ffa7c80e92f1e40bf5f6457fae1407c00000000"/>
