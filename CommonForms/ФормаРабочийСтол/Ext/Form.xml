@@ -432,6 +432,66 @@
 				</LabelDecoration>
 			</ChildItems>
 		</UsualGroup>
+		<LabelDecoration name="ДекорацияРазделитель6" id="80">
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content> </v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияРазделитель6КонтекстноеМеню" id="81"/>
+			<ExtendedTooltip name="ДекорацияРазделитель6РасширеннаяПодсказка" id="82"/>
+		</LabelDecoration>
+		<UsualGroup name="ГруппаГоловломки" id="78">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа головломки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа головломки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаГоловломкиРасширеннаяПодсказка" id="79"/>
+			<ChildItems>
+				<PictureDecoration name="ДекорацияГоловоломкаКартинка" id="83">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Декорация головоломка картинка</v8:content>
+						</v8:item>
+					</Title>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Hyperlink>true</Hyperlink>
+					<Picture>
+						<xr:Ref>CommonPicture.ГоловоломкиЛого</xr:Ref>
+						<xr:LoadTransparent>false</xr:LoadTransparent>
+					</Picture>
+					<ContextMenu name="ДекорацияГоловоломкаКартинкаКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ДекорацияГоловоломкаКартинкаРасширеннаяПодсказка" id="85"/>
+					<Events>
+						<Event name="Click">ДекорацияГоловоломкаКартинкаНажатие</Event>
+					</Events>
+				</PictureDecoration>
+				<LabelDecoration name="ДекорацияСайтАвтораНадпись1" id="86">
+					<Title formatted="false">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Головоломки</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДекорацияСайтАвтораНадпись1КонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ДекорацияСайтАвтораНадпись1РасширеннаяПодсказка" id="88"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="ТекПользователь" id="1">

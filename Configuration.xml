@@ -278,6 +278,7 @@
 			<Subsystem>Администрирование</Subsystem>
 			<CommonPicture>LiveGig</CommonPicture>
 			<CommonPicture>Битва</CommonPicture>
+			<CommonPicture>ГоловоломкиЛого</CommonPicture>
 			<CommonPicture>ДостижениеДвадцатьВопросовЗаШестьдесятСекундВкл</CommonPicture>
 			<CommonPicture>ДостижениеДвадцатьВопросовЗаШестьдесятСекундВыкл</CommonPicture>
 			<CommonPicture>ДостижениеЗавершениеВосхожденияВкл</CommonPicture>
@@ -339,6 +340,7 @@
 			<Constant>ВерсияПротивников</Constant>
 			<Constant>ВерсияМодификаторов</Constant>
 			<Constant>ТихийРежим</Constant>
+			<CommonForm>ФормаЗапускаГололомки</CommonForm>
 			<CommonForm>ФормаНастройкиПриложения</CommonForm>
 			<CommonForm>ФормаРабочийСтол</CommonForm>
 			<CommonForm>ФормаСообщение</CommonForm>
