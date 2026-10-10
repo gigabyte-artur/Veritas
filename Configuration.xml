@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Gigabyte</Vendor>
-			<Version>2.0.2</Version>
+			<Version>2.0.3</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -328,6 +328,8 @@
 			<CommonTemplate>Модификаторы_Предопределенный</CommonTemplate>
 			<CommonTemplate>Противники_Предопределенный</CommonTemplate>
 			<CommonTemplate>Сборник_Предопределенный</CommonTemplate>
+			<CommonTemplate>СловарьБольшой</CommonTemplate>
+			<CommonTemplate>СловарьМалый</CommonTemplate>
 			<CommonModule>ВосхождениеСервер</CommonModule>
 			<CommonModule>ДостиженияКлиентСервер</CommonModule>
 			<CommonModule>ОбменССайтом</CommonModule>

@@ -45,6 +45,7 @@
 			<Form>ФормаТаблицаШульте</Form>
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаУспешноеВосхождение</Form>
+			<Form>ФормаWordle</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

@@ -187,10 +187,15 @@
 		</UsualGroup>
 		<Button name="Сдаться" id="37">
 			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<HorizontalStretch>true</HorizontalStretch>
 			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 			<CommandName>Form.Command.Сдаться</CommandName>
+			<Picture>
+				<xr:Ref>StdPicture.Stop</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
 			<ExtendedTooltip name="СдатьсяРасширеннаяПодсказка" id="38"/>
 		</Button>
 	</ChildItems>

@@ -77,6 +77,19 @@
 					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="e5f6a7b8-1c2d-4e3f-9a8b-7c6d5e4f3a2b">
+				<Properties>
+					<Name>Wordle</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Wordle</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
