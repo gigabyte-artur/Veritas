@@ -85,19 +85,19 @@
 							<CommandName>Form.Command.Команда1</CommandName>
 							<ExtendedTooltip name="Команда1РасширеннаяПодсказка" id="16"/>
 						</Button>
-						<Button name="Команда2" id="17">
+						<Button name="Команда4" id="21">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
-							<CommandName>Form.Command.Команда2</CommandName>
-							<ExtendedTooltip name="Команда2РасширеннаяПодсказка" id="18"/>
+							<CommandName>Form.Command.Команда4</CommandName>
+							<ExtendedTooltip name="Команда4РасширеннаяПодсказка" id="22"/>
 						</Button>
-						<Button name="Команда3" id="19">
+						<Button name="Команда7" id="29">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
-							<CommandName>Form.Command.Команда3</CommandName>
-							<ExtendedTooltip name="Команда3РасширеннаяПодсказка" id="20"/>
+							<CommandName>Form.Command.Команда7</CommandName>
+							<ExtendedTooltip name="Команда7РасширеннаяПодсказка" id="30"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
@@ -119,12 +119,12 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКолонкаЦентральнаяРасширеннаяПодсказка" id="6"/>
 					<ChildItems>
-						<Button name="Команда4" id="21">
+						<Button name="Команда2" id="17">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
-							<CommandName>Form.Command.Команда4</CommandName>
-							<ExtendedTooltip name="Команда4РасширеннаяПодсказка" id="22"/>
+							<CommandName>Form.Command.Команда2</CommandName>
+							<ExtendedTooltip name="Команда2РасширеннаяПодсказка" id="18"/>
 						</Button>
 						<Button name="Команда5" id="23">
 							<Type>UsualButton</Type>
@@ -133,12 +133,12 @@
 							<CommandName>Form.Command.Команда5</CommandName>
 							<ExtendedTooltip name="Команда5РасширеннаяПодсказка" id="24"/>
 						</Button>
-						<Button name="Команда6" id="25">
+						<Button name="Команда8" id="27">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
-							<CommandName>Form.Command.Команда6</CommandName>
-							<ExtendedTooltip name="Команда6РасширеннаяПодсказка" id="26"/>
+							<CommandName>Form.Command.Команда8</CommandName>
+							<ExtendedTooltip name="Команда8РасширеннаяПодсказка" id="28"/>
 						</Button>
 					</ChildItems>
 				</UsualGroup>
@@ -160,19 +160,19 @@
 					<ShowTitle>false</ShowTitle>
 					<ExtendedTooltip name="ГруппаКолонкаПраваяРасширеннаяПодсказка" id="8"/>
 					<ChildItems>
-						<Button name="Команда7" id="29">
+						<Button name="Команда3" id="19">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
-							<CommandName>Form.Command.Команда7</CommandName>
-							<ExtendedTooltip name="Команда7РасширеннаяПодсказка" id="30"/>
+							<CommandName>Form.Command.Команда3</CommandName>
+							<ExtendedTooltip name="Команда3РасширеннаяПодсказка" id="20"/>
 						</Button>
-						<Button name="Команда8" id="27">
+						<Button name="Команда6" id="25">
 							<Type>UsualButton</Type>
 							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>true</VerticalStretch>
-							<CommandName>Form.Command.Команда8</CommandName>
-							<ExtendedTooltip name="Команда8РасширеннаяПодсказка" id="28"/>
+							<CommandName>Form.Command.Команда6</CommandName>
+							<ExtendedTooltip name="Команда6РасширеннаяПодсказка" id="26"/>
 						</Button>
 						<Button name="Команда9" id="31">
 							<Type>UsualButton</Type>
