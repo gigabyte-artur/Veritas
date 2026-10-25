@@ -840,6 +840,415 @@
 				</Button>
 			</ChildItems>
 		</UsualGroup>
+		<UsualGroup name="ГруппаАлфавит" id="391">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа алфавит</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа алфавит</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаАлфавитРасширеннаяПодсказка" id="392"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаАлфавит1" id="393">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАлфавит1РасширеннаяПодсказка" id="394"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияЙ" id="399">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Й</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЙКонтекстноеМеню" id="400"/>
+							<ExtendedTooltip name="ДекорацияЙРасширеннаяПодсказка" id="401"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЦ" id="432">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ц</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЦКонтекстноеМеню" id="433"/>
+							<ExtendedTooltip name="ДекорацияЦРасширеннаяПодсказка" id="434"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияУ" id="429">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>У</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияУКонтекстноеМеню" id="430"/>
+							<ExtendedTooltip name="ДекорацияУРасширеннаяПодсказка" id="431"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияК" id="426">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>К</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияККонтекстноеМеню" id="427"/>
+							<ExtendedTooltip name="ДекорацияКРасширеннаяПодсказка" id="428"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЕ" id="423">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Е</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЕКонтекстноеМеню" id="424"/>
+							<ExtendedTooltip name="ДекорацияЕРасширеннаяПодсказка" id="425"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияН" id="420">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Н</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияНКонтекстноеМеню" id="421"/>
+							<ExtendedTooltip name="ДекорацияНРасширеннаяПодсказка" id="422"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияГ" id="417">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Г</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияГКонтекстноеМеню" id="418"/>
+							<ExtendedTooltip name="ДекорацияГРасширеннаяПодсказка" id="419"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияШ" id="414">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ш</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияШКонтекстноеМеню" id="415"/>
+							<ExtendedTooltip name="ДекорацияШРасширеннаяПодсказка" id="416"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЩ" id="411">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Щ</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЩКонтекстноеМеню" id="412"/>
+							<ExtendedTooltip name="ДекорацияЩРасширеннаяПодсказка" id="413"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЗ" id="408">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>З</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЗКонтекстноеМеню" id="409"/>
+							<ExtendedTooltip name="ДекорацияЗРасширеннаяПодсказка" id="410"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияХ" id="405">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Х</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияХКонтекстноеМеню" id="406"/>
+							<ExtendedTooltip name="ДекорацияХРасширеннаяПодсказка" id="407"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЪ" id="402">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ъ</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЪКонтекстноеМеню" id="403"/>
+							<ExtendedTooltip name="ДекорацияЪРасширеннаяПодсказка" id="404"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаАлфавит2" id="395">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАлфавит2РасширеннаяПодсказка" id="396"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияФ" id="435">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ф</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияФКонтекстноеМеню" id="436"/>
+							<ExtendedTooltip name="ДекорацияФРасширеннаяПодсказка" id="437"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЫ" id="438">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ы</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЫКонтекстноеМеню" id="439"/>
+							<ExtendedTooltip name="ДекорацияЫРасширеннаяПодсказка" id="440"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияВ" id="441">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияВКонтекстноеМеню" id="442"/>
+							<ExtendedTooltip name="ДекорацияВРасширеннаяПодсказка" id="443"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияА" id="444">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>А</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияАКонтекстноеМеню" id="445"/>
+							<ExtendedTooltip name="ДекорацияАРасширеннаяПодсказка" id="446"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияП" id="447">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>П</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияПКонтекстноеМеню" id="448"/>
+							<ExtendedTooltip name="ДекорацияПРасширеннаяПодсказка" id="449"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияР" id="450">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Р</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияРКонтекстноеМеню" id="451"/>
+							<ExtendedTooltip name="ДекорацияРРасширеннаяПодсказка" id="452"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияО" id="453">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>О</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияОКонтекстноеМеню" id="454"/>
+							<ExtendedTooltip name="ДекорацияОРасширеннаяПодсказка" id="455"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЛ" id="456">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Л</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЛКонтекстноеМеню" id="457"/>
+							<ExtendedTooltip name="ДекорацияЛРасширеннаяПодсказка" id="458"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияД" id="459">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Д</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияДКонтекстноеМеню" id="460"/>
+							<ExtendedTooltip name="ДекорацияДРасширеннаяПодсказка" id="461"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЖ" id="462">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ж</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЖКонтекстноеМеню" id="463"/>
+							<ExtendedTooltip name="ДекорацияЖРасширеннаяПодсказка" id="464"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЭ" id="465">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Э</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЭКонтекстноеМеню" id="466"/>
+							<ExtendedTooltip name="ДекорацияЭРасширеннаяПодсказка" id="467"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаАлфавит3" id="397">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАлфавит3РасширеннаяПодсказка" id="398"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияЯ" id="489">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Я</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЯКонтекстноеМеню" id="490"/>
+							<ExtendedTooltip name="ДекорацияЯРасширеннаяПодсказка" id="491"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЧ" id="492">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ч</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЧКонтекстноеМеню" id="493"/>
+							<ExtendedTooltip name="ДекорацияЧРасширеннаяПодсказка" id="494"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияС" id="468">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>С</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияСКонтекстноеМеню" id="469"/>
+							<ExtendedTooltip name="ДекорацияСРасширеннаяПодсказка" id="470"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияМ" id="471">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>М</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияМКонтекстноеМеню" id="472"/>
+							<ExtendedTooltip name="ДекорацияМРасширеннаяПодсказка" id="473"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияИ" id="474">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>И</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияИКонтекстноеМеню" id="475"/>
+							<ExtendedTooltip name="ДекорацияИРасширеннаяПодсказка" id="476"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияТ" id="477">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Т</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияТКонтекстноеМеню" id="478"/>
+							<ExtendedTooltip name="ДекорацияТРасширеннаяПодсказка" id="479"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЬ" id="480">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ь</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЬКонтекстноеМеню" id="481"/>
+							<ExtendedTooltip name="ДекорацияЬРасширеннаяПодсказка" id="482"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияБ" id="483">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Б</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияБКонтекстноеМеню" id="484"/>
+							<ExtendedTooltip name="ДекорацияБРасширеннаяПодсказка" id="485"/>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЮ" id="486">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ю</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ДекорацияЮКонтекстноеМеню" id="487"/>
+							<ExtendedTooltip name="ДекорацияЮРасширеннаяПодсказка" id="488"/>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
