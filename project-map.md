@@ -44,6 +44,7 @@
 | DataProcessors | ПереносСборников | DataProcessors/ПереносСборников/Forms/Форма/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Ext/ManagerModule.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/Форма/Ext/Form/Module.bsl |
+| DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаВиселица/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаВыбораЭтапа/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаДействияПротивника/Ext/Form/Module.bsl |
 | DataProcessors | ТестированиеЗнаний | DataProcessors/ТестированиеЗнаний/Forms/ФормаИнформацииОБое/Ext/Form/Module.bsl |

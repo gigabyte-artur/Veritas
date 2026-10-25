@@ -1,0 +1,676 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<LabelDecoration name="ДекорацияОписание" id="114">
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<TextColor>style:FieldSelectionBackColor</TextColor>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виселица: угадайте слово за отведенное число попыток. В поле будут показаны угаднные буквы, а также оставшиеся, заменные символом _</v8:content>
+				</v8:item>
+			</Title>
+			<ContextMenu name="ДекорацияОписаниеКонтекстноеМеню" id="115"/>
+			<ExtendedTooltip name="ДекорацияОписаниеРасширеннаяПодсказка" id="116"/>
+		</LabelDecoration>
+		<LabelField name="ТекущееСлово" id="1">
+			<DataPath>ТекущееСлово</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<HorizontalStretch>true</HorizontalStretch>
+			<Font ref="style:NormalTextFont" height="18" kind="StyleItem" scale="100"/>
+			<ContextMenu name="ТекущееСловоКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="ТекущееСловоРасширеннаяПодсказка" id="3"/>
+		</LabelField>
+		<LabelDecoration name="ДекорацияПопытки" id="111">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Title formatted="false">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Попытки: 0 из 10</v8:content>
+				</v8:item>
+			</Title>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<HorizontalAlign>Center</HorizontalAlign>
+			<ContextMenu name="ДекорацияПопыткиКонтекстноеМеню" id="112"/>
+			<ExtendedTooltip name="ДекорацияПопыткиРасширеннаяПодсказка" id="113"/>
+		</LabelDecoration>
+		<UsualGroup name="ГруппаАлфавит" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа алфавит</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа алфавит</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаАлфавитРасширеннаяПодсказка" id="6"/>
+			<ChildItems>
+				<UsualGroup name="ГруппаАлфавит1" id="7">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАлфавит1РасширеннаяПодсказка" id="8"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияЙ" id="9">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Й</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЙКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ДекорацияЙРасширеннаяПодсказка" id="11"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЦ" id="12">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ц</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЦКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="ДекорацияЦРасширеннаяПодсказка" id="14"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияУ" id="15">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>У</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияУКонтекстноеМеню" id="16"/>
+							<ExtendedTooltip name="ДекорацияУРасширеннаяПодсказка" id="17"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияК" id="18">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>К</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияККонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="ДекорацияКРасширеннаяПодсказка" id="20"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЕ" id="21">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Е</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЕКонтекстноеМеню" id="22"/>
+							<ExtendedTooltip name="ДекорацияЕРасширеннаяПодсказка" id="23"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияН" id="24">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Н</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияНКонтекстноеМеню" id="25"/>
+							<ExtendedTooltip name="ДекорацияНРасширеннаяПодсказка" id="26"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияГ" id="27">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Г</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияГКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="ДекорацияГРасширеннаяПодсказка" id="29"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияШ" id="30">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ш</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияШКонтекстноеМеню" id="31"/>
+							<ExtendedTooltip name="ДекорацияШРасширеннаяПодсказка" id="32"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЩ" id="33">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Щ</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЩКонтекстноеМеню" id="34"/>
+							<ExtendedTooltip name="ДекорацияЩРасширеннаяПодсказка" id="35"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЗ" id="36">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>З</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЗКонтекстноеМеню" id="37"/>
+							<ExtendedTooltip name="ДекорацияЗРасширеннаяПодсказка" id="38"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияХ" id="39">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Х</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияХКонтекстноеМеню" id="40"/>
+							<ExtendedTooltip name="ДекорацияХРасширеннаяПодсказка" id="41"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЪ" id="42">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ъ</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЪКонтекстноеМеню" id="43"/>
+							<ExtendedTooltip name="ДекорацияЪРасширеннаяПодсказка" id="44"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаАлфавит2" id="45">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАлфавит2РасширеннаяПодсказка" id="46"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияФ" id="47">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ф</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияФКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ДекорацияФРасширеннаяПодсказка" id="49"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЫ" id="50">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ы</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЫКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ДекорацияЫРасширеннаяПодсказка" id="52"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияВ" id="53">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>В</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияВКонтекстноеМеню" id="54"/>
+							<ExtendedTooltip name="ДекорацияВРасширеннаяПодсказка" id="55"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияА" id="56">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>А</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияАКонтекстноеМеню" id="57"/>
+							<ExtendedTooltip name="ДекорацияАРасширеннаяПодсказка" id="58"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияП" id="59">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>П</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияПКонтекстноеМеню" id="60"/>
+							<ExtendedTooltip name="ДекорацияПРасширеннаяПодсказка" id="61"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияР" id="62">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Р</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияРКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ДекорацияРРасширеннаяПодсказка" id="64"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияО" id="65">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>О</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияОКонтекстноеМеню" id="66"/>
+							<ExtendedTooltip name="ДекорацияОРасширеннаяПодсказка" id="67"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЛ" id="68">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Л</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЛКонтекстноеМеню" id="69"/>
+							<ExtendedTooltip name="ДекорацияЛРасширеннаяПодсказка" id="70"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияД" id="71">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Д</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияДКонтекстноеМеню" id="72"/>
+							<ExtendedTooltip name="ДекорацияДРасширеннаяПодсказка" id="73"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЖ" id="74">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ж</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЖКонтекстноеМеню" id="75"/>
+							<ExtendedTooltip name="ДекорацияЖРасширеннаяПодсказка" id="76"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЭ" id="77">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Э</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЭКонтекстноеМеню" id="78"/>
+							<ExtendedTooltip name="ДекорацияЭРасширеннаяПодсказка" id="79"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="ГруппаАлфавит3" id="80">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа алфавит1</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+					<Group>AlwaysHorizontal</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаАлфавит3РасширеннаяПодсказка" id="81"/>
+					<ChildItems>
+						<LabelDecoration name="ДекорацияЯ" id="82">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Я</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЯКонтекстноеМеню" id="83"/>
+							<ExtendedTooltip name="ДекорацияЯРасширеннаяПодсказка" id="84"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЧ" id="85">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ч</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЧКонтекстноеМеню" id="86"/>
+							<ExtendedTooltip name="ДекорацияЧРасширеннаяПодсказка" id="87"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияС" id="88">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>С</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияСКонтекстноеМеню" id="89"/>
+							<ExtendedTooltip name="ДекорацияСРасширеннаяПодсказка" id="90"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияМ" id="91">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>М</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияМКонтекстноеМеню" id="92"/>
+							<ExtendedTooltip name="ДекорацияМРасширеннаяПодсказка" id="93"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияИ" id="94">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>И</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияИКонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="ДекорацияИРасширеннаяПодсказка" id="96"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияТ" id="97">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Т</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияТКонтекстноеМеню" id="98"/>
+							<ExtendedTooltip name="ДекорацияТРасширеннаяПодсказка" id="99"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЬ" id="100">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ь</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЬКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="ДекорацияЬРасширеннаяПодсказка" id="102"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияБ" id="103">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Б</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияБКонтекстноеМеню" id="104"/>
+							<ExtendedTooltip name="ДекорацияБРасширеннаяПодсказка" id="105"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+						<LabelDecoration name="ДекорацияЮ" id="106">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ю</v8:content>
+								</v8:item>
+							</Title>
+							<Hyperlink>true</Hyperlink>
+							<ContextMenu name="ДекорацияЮКонтекстноеМеню" id="107"/>
+							<ExtendedTooltip name="ДекорацияЮРасширеннаяПодсказка" id="108"/>
+							<Events>
+								<Event name="Click">БукваАлфавитаНажатие</Event>
+							</Events>
+						</LabelDecoration>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+		<Button name="Сдаться" id="109">
+			<Type>UsualButton</Type>
+			<Representation>PictureAndText</Representation>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.Сдаться</CommandName>
+			<ExtendedTooltip name="СдатьсяРасширеннаяПодсказка" id="110"/>
+		</Button>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ТестированиеЗнаний</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="ТекущееСлово" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Текущее слово</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ЗагаданноеСлово" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загаданное слово</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Попытки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Попытки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>2</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВыбранныеБуквы" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выбранные буквы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сдаться" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдаться</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сдаться</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сдаться</Action>
+		</Command>
+	</Commands>
+</Form>

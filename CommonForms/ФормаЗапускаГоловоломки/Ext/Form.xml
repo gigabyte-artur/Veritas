@@ -15,6 +15,19 @@
 			</Title>
 			<ExtendedTooltip name="ЗапуститьWordleРасширеннаяПодсказка" id="8"/>
 		</Button>
+		<Button name="ЗапуститьВиселица" id="9">
+			<Type>UsualButton</Type>
+			<HorizontalStretch>true</HorizontalStretch>
+			<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+			<CommandName>Form.Command.ЗапуститьВиселица</CommandName>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Виселица</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ЗапуститьВиселицаРасширеннаяПодсказка" id="10"/>
+		</Button>
 		<Button name="ЗапуститьМеморикс" id="1">
 			<Type>UsualButton</Type>
 			<HorizontalStretch>true</HorizontalStretch>
@@ -116,6 +129,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>ЗапуститьWordle</Action>
+		</Command>
+		<Command name="ЗапуститьВиселица" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить виселица</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить виселица</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьВиселица</Action>
 		</Command>
 	</Commands>
 </Form>

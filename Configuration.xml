@@ -330,6 +330,7 @@
 			<CommonTemplate>Сборник_Предопределенный</CommonTemplate>
 			<CommonTemplate>СловарьБольшой</CommonTemplate>
 			<CommonTemplate>СловарьМалый</CommonTemplate>
+			<CommonTemplate>СловарьОбщий</CommonTemplate>
 			<CommonModule>ВосхождениеСервер</CommonModule>
 			<CommonModule>ДостиженияКлиентСервер</CommonModule>
 			<CommonModule>ОбменССайтом</CommonModule>

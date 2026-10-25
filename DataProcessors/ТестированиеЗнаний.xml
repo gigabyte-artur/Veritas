@@ -46,6 +46,7 @@
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаУспешноеВосхождение</Form>
 			<Form>ФормаWordle</Form>
+			<Form>ФормаВиселица</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
