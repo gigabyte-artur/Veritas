@@ -90,6 +90,19 @@
 					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="3f2c1b4a-9d7e-4c85-b6a1-0e5d8c7b2a94">
+				<Properties>
+					<Name>Виселица</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Виселица</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>
