@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.21">
+	<Item id="fb9291c4-911a-4c6e-a2c0-e5fd99527c80">
+		<Name>АлхимическийКуб</Name>
+		<Code>000000002</Code>
+		<Description>Алхимический куб</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d2bb2952-ca0a-45a8-aef7-52f0ddcf4f87">
+		<Name>МогилаДуэлянта</Name>
+		<Code>000000003</Code>
+		<Description>Могила дуэлянта</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="5380ece2-e093-45ad-a8b7-1ca88c9102db">
+		<Name>СпорСофиста</Name>
+		<Code>000000001</Code>
+		<Description>Спор софиста</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

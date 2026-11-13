@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>1</size>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<c>
+				<c>
+					<f>0</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;version&gt;1&lt;/version&gt;
+&lt;events&gt;
+    &lt;event&gt;
+        &lt;name&gt;СпорСофиста&lt;/name&gt;
+        &lt;title&gt;Спор с софистом&lt;/title&gt;
+        &lt;description&gt;Странствующий софист утверждает, что дважды два — пять, и предлагает пари. Он явно уверен в своей победе.&lt;/description&gt;
+        &lt;choices&gt;
+            &lt;choice&gt;
+                &lt;number&gt;1&lt;/number&gt;
+                &lt;description&gt;Вступить в диспут (-10 здоровья, случайная карта)&lt;/description&gt;
+            &lt;/choice&gt;
+            &lt;choice&gt;
+                &lt;number&gt;2&lt;/number&gt;
+                &lt;description&gt;Пройти мимо&lt;/description&gt;
+            &lt;/choice&gt;
+        &lt;/choices&gt;
+        &lt;rewards&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Здоровье&lt;/rewardType&gt;
+                &lt;direction&gt;false&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;10&lt;/minValue&gt;
+                &lt;maxValue&gt;10&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Карта&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Случайный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;1&lt;/minValue&gt;
+                &lt;maxValue&gt;1&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;2&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Ничего&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;0&lt;/minValue&gt;
+                &lt;maxValue&gt;0&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+        &lt;/rewards&gt;
+    &lt;/event&gt;
+    &lt;event&gt;
+        &lt;name&gt;АлхимическийКуб&lt;/name&gt;
+        &lt;title&gt;Алхимический куб&lt;/title&gt;
+        &lt;description&gt;Медный перегонный куб тихо гудит над огнём. Алхимик готов превратить одну субстанцию в другую — за соответствующую плату.&lt;/description&gt;
+        &lt;choices&gt;
+            &lt;choice&gt;
+                &lt;number&gt;1&lt;/number&gt;
+                &lt;description&gt;Перегнать кровь (-15 здоровья, +80-120 золота)&lt;/description&gt;
+            &lt;/choice&gt;
+            &lt;choice&gt;
+                &lt;number&gt;2&lt;/number&gt;
+                &lt;description&gt;Перегнать золото (-150 золота, лечение 20%)&lt;/description&gt;
+            &lt;/choice&gt;
+            &lt;choice&gt;
+                &lt;number&gt;3&lt;/number&gt;
+                &lt;description&gt;Уйти&lt;/description&gt;
+            &lt;/choice&gt;
+        &lt;/choices&gt;
+        &lt;rewards&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Здоровье&lt;/rewardType&gt;
+                &lt;direction&gt;false&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;15&lt;/minValue&gt;
+                &lt;maxValue&gt;15&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Золото&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Случайный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;80&lt;/minValue&gt;
+                &lt;maxValue&gt;120&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;2&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Золото&lt;/rewardType&gt;
+                &lt;direction&gt;false&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;150&lt;/minValue&gt;
+                &lt;maxValue&gt;150&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;2&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Лечение&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Процент&lt;/calculationMethod&gt;
+                &lt;minValue&gt;20&lt;/minValue&gt;
+                &lt;maxValue&gt;20&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;3&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Ничего&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;0&lt;/minValue&gt;
+                &lt;maxValue&gt;0&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+        &lt;/rewards&gt;
+    &lt;/event&gt;
+    &lt;event&gt;
+        &lt;name&gt;МогилаДуэлянта&lt;/name&gt;
+        &lt;title&gt;Могила дуэлянта&lt;/title&gt;
+        &lt;description&gt;Из старого холма торчит клинок. Гравировка на гарде стёрлась, но металл не тронут ржавчиной.&lt;/description&gt;
+        &lt;choices&gt;
+            &lt;choice&gt;
+                &lt;number&gt;1&lt;/number&gt;
+                &lt;description&gt;Взять клинок (-20 здоровья, модификатор Рапира)&lt;/description&gt;
+            &lt;/choice&gt;
+            &lt;choice&gt;
+                &lt;number&gt;2&lt;/number&gt;
+                &lt;description&gt;Помолиться у могилы (лечение 15%)&lt;/description&gt;
+            &lt;/choice&gt;
+            &lt;choice&gt;
+                &lt;number&gt;3&lt;/number&gt;
+                &lt;description&gt;Разворошить могилу (бой)&lt;/description&gt;
+            &lt;/choice&gt;
+        &lt;/choices&gt;
+        &lt;rewards&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Здоровье&lt;/rewardType&gt;
+                &lt;direction&gt;false&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;20&lt;/minValue&gt;
+                &lt;maxValue&gt;20&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Модификатор&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;1&lt;/minValue&gt;
+                &lt;maxValue&gt;1&lt;/maxValue&gt;
+                &lt;rewardRef&gt;Рапира&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;2&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Лечение&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Процент&lt;/calculationMethod&gt;
+                &lt;minValue&gt;15&lt;/minValue&gt;
+                &lt;maxValue&gt;15&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+            &lt;reward&gt;
+                &lt;choiceNumber&gt;3&lt;/choiceNumber&gt;
+                &lt;rewardType&gt;Бой&lt;/rewardType&gt;
+                &lt;direction&gt;true&lt;/direction&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
+                &lt;minValue&gt;1&lt;/minValue&gt;
+                &lt;maxValue&gt;1&lt;/maxValue&gt;
+                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+            &lt;/reward&gt;
+        &lt;/rewards&gt;
+    &lt;/event&gt;
+&lt;/events&gt;</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>1</defaultFormatIndex>
+	<height>1</height>
+	<vgRows>1</vgRows>
+	<format>
+		<width>72</width>
+	</format>
+</document>
