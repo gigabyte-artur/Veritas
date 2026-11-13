@@ -22,7 +22,7 @@
 						<v8:item>
 							<v8:lang>ru</v8:lang>
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-&lt;version&gt;1&lt;/version&gt;
+&lt;version&gt;5&lt;/version&gt;
 &lt;events&gt;
     &lt;event&gt;
         &lt;name&gt;СпорСофиста&lt;/name&gt;
@@ -31,7 +31,7 @@
         &lt;choices&gt;
             &lt;choice&gt;
                 &lt;number&gt;1&lt;/number&gt;
-                &lt;description&gt;Вступить в диспут (-10 здоровья, случайная карта)&lt;/description&gt;
+                &lt;description&gt;Вступить в диспут (-10 здоровья, карта Опровержение)&lt;/description&gt;
             &lt;/choice&gt;
             &lt;choice&gt;
                 &lt;number&gt;2&lt;/number&gt;
@@ -52,10 +52,10 @@
                 &lt;choiceNumber&gt;1&lt;/choiceNumber&gt;
                 &lt;rewardType&gt;Карта&lt;/rewardType&gt;
                 &lt;direction&gt;true&lt;/direction&gt;
-                &lt;calculationMethod&gt;Случайный&lt;/calculationMethod&gt;
+                &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
                 &lt;minValue&gt;1&lt;/minValue&gt;
                 &lt;maxValue&gt;1&lt;/maxValue&gt;
-                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+                &lt;rewardRef&gt;Опровержение&lt;/rewardRef&gt;
             &lt;/reward&gt;
             &lt;reward&gt;
                 &lt;choiceNumber&gt;2&lt;/choiceNumber&gt;
@@ -149,7 +149,7 @@
             &lt;/choice&gt;
             &lt;choice&gt;
                 &lt;number&gt;3&lt;/number&gt;
-                &lt;description&gt;Разворошить могилу (бой)&lt;/description&gt;
+                &lt;description&gt;Разворошить могилу (бой с призрачным рыцарем)&lt;/description&gt;
             &lt;/choice&gt;
         &lt;/choices&gt;
         &lt;rewards&gt;
@@ -187,7 +187,7 @@
                 &lt;calculationMethod&gt;Фиксированный&lt;/calculationMethod&gt;
                 &lt;minValue&gt;1&lt;/minValue&gt;
                 &lt;maxValue&gt;1&lt;/maxValue&gt;
-                &lt;rewardRef&gt;&lt;/rewardRef&gt;
+                &lt;rewardRef&gt;phantom_knight_01&lt;/rewardRef&gt;
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;

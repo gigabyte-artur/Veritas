@@ -71,7 +71,7 @@
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb" configVersion="b5ef681e9d79464a943ba6a2f9dbc0c700000000"/>
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента.Form" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb.0" configVersion="f994bcca5a059e4a8751ccf292edd69a00000000"/>
 		<Metadata name="Catalog.Сборники.ObjectModule" id="52c44cc3-5d26-4684-b79e-464958bf1145.0" configVersion="9bd4714119728642aeb25789eb912dcd00000000"/>
-		<Metadata name="Catalog.СлучайныеСобытия" id="254e2399-164e-45e8-aef3-b739cab7f695" configVersion="95d695a283d39c4c824e9d9a5aa82e0300000000">
+		<Metadata name="Catalog.СлучайныеСобытия" id="254e2399-164e-45e8-aef3-b739cab7f695" configVersion="a32136870362d94cbb4881b7a40a780000000000">
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.МинимальноеЗначение" id="026bcd83-87e6-4786-b7b0-7b7a0917aa55"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.МаксимальноеЗначение" id="029dfaca-bb24-4f91-9aa8-f5193a57a604"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора" id="0e91199e-a50c-4cb7-9483-13002298146d"/>
@@ -212,8 +212,8 @@
 		<Metadata name="CommonTemplate.СловарьМалый.Template" id="01d7c262-9ecf-4a9a-9e73-2e8be8ff630e.0" configVersion="1559b0c599b1d644bd97e7cae971567b00000000"/>
 		<Metadata name="CommonTemplate.СловарьОбщий" id="81279ec1-9245-4941-86a2-f2dffb80d705" configVersion="7d86d79ece444341b5d063eb4ba706c800000000"/>
 		<Metadata name="CommonTemplate.СловарьОбщий.Template" id="81279ec1-9245-4941-86a2-f2dffb80d705.0" configVersion="0f2f3a3097f87a4c8f5966aec76e29c400000000"/>
-		<Metadata name="CommonTemplate.События_Предопределенный" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612" configVersion="efdbf26e6011c54db7309fe1ba27d66700000000"/>
-		<Metadata name="CommonTemplate.События_Предопределенный.Template" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612.0" configVersion="78f9dc0909eb3d40be3b448d95c7c4ae00000000"/>
+		<Metadata name="CommonTemplate.События_Предопределенный" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612" configVersion="f063d567183d4d4aa4e40027cbf97c4900000000"/>
+		<Metadata name="CommonTemplate.События_Предопределенный.Template" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612.0" configVersion="34d544b0b3089e42946ba7226058fbc900000000"/>
 		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="e5cf19e5e63b394b84691a715d703b1200000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="57648819dd8cd84faec6ee32889ca34300000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="f6268fe1ff4a274cb74b5d168e95363b00000000"/>
@@ -277,8 +277,8 @@
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНаградаСерии.Form" id="ce2cb158-09e0-4aa3-a421-2bc9095c4f34.0" configVersion="dadff29d87cc3c44ad68f22b539466a500000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины" id="9493a178-85ce-40c1-af73-559f37a5fc71" configVersion="26cb4df11a88064fbddea90d8816389300000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНастроекВикторины.Form" id="9493a178-85ce-40c1-af73-559f37a5fc71.0" configVersion="b2ac585b13cb1a4f9d63b7b31475e59600000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff" configVersion="35c57d0682b66044a4cfc1c980adb8c700000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек.Form" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff.0" configVersion="b3f713640d020045bd1349c01c17596100000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff" configVersion="a6c059c23c42ac448c7f9a2aaa20139b00000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаНачальныхНастроек.Form" id="d11683ae-9f7d-4a9c-9cbf-c8447be83bff.0" configVersion="a6f3065177f15d49ac53045b87293d0700000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаОтдыха" id="6f22bc4e-d806-49a0-9370-fefe958a9001" configVersion="4cf9be82dd40f74ca8d973c5939c46cf00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаОтдыха.Form" id="6f22bc4e-d806-49a0-9370-fefe958a9001.0" configVersion="05073e7f81e45b4fa24f5fde576756c700000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаПолученияНаград" id="bfebe370-e443-4a16-a2cf-4bed1233b646" configVersion="63ffe8c5ea8ce946a9878226984e844400000000"/>
@@ -318,11 +318,14 @@
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.Поджечь" id="da5fb0d0-07ce-4e27-9c73-184c13c63991"/>
 			<Metadata name="Enum.ВариантыДействийПротивников.EnumValue.АктивироватьБомбу" id="f71faad6-ea35-4873-b28a-07338d90d832"/>
 		</Metadata>
-		<Metadata name="Enum.ВариантыНаград" id="b0f5995a-15a4-4810-8d4b-257b17752906" configVersion="972d33c21f06cc41a13fb1b4a6e7a82f00000000">
+		<Metadata name="Enum.ВариантыНаград" id="b0f5995a-15a4-4810-8d4b-257b17752906" configVersion="6bfa53b7d29e204fb522fd753183691d00000000">
+			<Metadata name="Enum.ВариантыНаград.EnumValue.СлучайноеСобытие" id="22712885-4de6-4f4c-827f-c65d5d24b2a6"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Золото" id="378bad40-7fc6-43f0-8049-d6320d207782"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Здоровье" id="37fef555-8b46-4224-9f92-65bc927be472"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Урон" id="4f390973-708b-4d19-8b92-14fb3cd447aa"/>
+			<Metadata name="Enum.ВариантыНаград.EnumValue.Головоломка" id="72b297c8-c72c-499c-b9e1-a15e4ac1b6be"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Карта" id="78aad13d-db96-4c47-b3c4-7f1262969026"/>
+			<Metadata name="Enum.ВариантыНаград.EnumValue.МаксимальноеЗдоровье" id="958d6707-4609-4b73-9a88-5e0ab618c2e5"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Модификатор" id="caceaa40-61a1-45c1-9550-81ccf401447d"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Ничего" id="dcc1b0d6-bcf2-4333-b6f5-913f9a7b5fdf"/>
 			<Metadata name="Enum.ВариантыНаград.EnumValue.Лечение" id="ee77af22-adba-48b6-a090-7dd9b9cc7f75"/>
