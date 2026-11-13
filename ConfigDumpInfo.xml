@@ -71,13 +71,14 @@
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb" configVersion="b5ef681e9d79464a943ba6a2f9dbc0c700000000"/>
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента.Form" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb.0" configVersion="f994bcca5a059e4a8751ccf292edd69a00000000"/>
 		<Metadata name="Catalog.Сборники.ObjectModule" id="52c44cc3-5d26-4684-b79e-464958bf1145.0" configVersion="9bd4714119728642aeb25789eb912dcd00000000"/>
-		<Metadata name="Catalog.СлучайныеСобытия" id="254e2399-164e-45e8-aef3-b739cab7f695" configVersion="a32136870362d94cbb4881b7a40a780000000000">
+		<Metadata name="Catalog.СлучайныеСобытия" id="254e2399-164e-45e8-aef3-b739cab7f695" configVersion="ea2569fd9bf785499497c4b20b3bd0b600000000">
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.МинимальноеЗначение" id="026bcd83-87e6-4786-b7b0-7b7a0917aa55"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.МаксимальноеЗначение" id="029dfaca-bb24-4f91-9aa8-f5193a57a604"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора" id="0e91199e-a50c-4cb7-9483-13002298146d"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.Направление" id="1b112b5c-978c-42b7-9dfa-919ed71b1920"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.СсылкаНаграды" id="54d30ede-bcef-4eb3-8d5b-51c7acdafebe"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.ВариантыВыбора" id="5ea6393b-9039-4940-a09f-002bc9c5efde"/>
+			<Metadata name="Catalog.СлучайныеСобытия.Attribute.ВнешнийID" id="769ba3b0-2116-4aad-8dce-65ad17f2c69d"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.ВариантНаграды" id="8ae6a365-1a3f-49fe-a1c4-7b281dea6fc1"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.ВариантыВыбора.Attribute.ОписаниеВарианта" id="a66d7bce-5511-4242-bd58-2b01558faa36"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.НомерВарианта" id="ab43e05e-ed14-43d0-9ba4-531eaa0812c2"/>
@@ -212,8 +213,8 @@
 		<Metadata name="CommonTemplate.СловарьМалый.Template" id="01d7c262-9ecf-4a9a-9e73-2e8be8ff630e.0" configVersion="1559b0c599b1d644bd97e7cae971567b00000000"/>
 		<Metadata name="CommonTemplate.СловарьОбщий" id="81279ec1-9245-4941-86a2-f2dffb80d705" configVersion="7d86d79ece444341b5d063eb4ba706c800000000"/>
 		<Metadata name="CommonTemplate.СловарьОбщий.Template" id="81279ec1-9245-4941-86a2-f2dffb80d705.0" configVersion="0f2f3a3097f87a4c8f5966aec76e29c400000000"/>
-		<Metadata name="CommonTemplate.События_Предопределенный" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612" configVersion="f063d567183d4d4aa4e40027cbf97c4900000000"/>
-		<Metadata name="CommonTemplate.События_Предопределенный.Template" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612.0" configVersion="34d544b0b3089e42946ba7226058fbc900000000"/>
+		<Metadata name="CommonTemplate.События_Предопределенный" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612" configVersion="7c200fbcf3bffd44a4ccbefc3f6903c800000000"/>
+		<Metadata name="CommonTemplate.События_Предопределенный.Template" id="9512fe4b-8e89-402f-85d2-81f8dbd0f612.0" configVersion="4be024285d346a4c98d574d7bddf611800000000"/>
 		<Metadata name="Configuration.Veritas" id="7509fd66-4f60-4f39-a099-52202f991049" configVersion="e5cf19e5e63b394b84691a715d703b1200000000"/>
 		<Metadata name="Configuration.Veritas.CommandInterface" id="0b9e596f-64ab-4534-9194-db0f43f0a494.a" configVersion="57648819dd8cd84faec6ee32889ca34300000000"/>
 		<Metadata name="Configuration.Veritas.HomePageWorkArea" id="0b9e596f-64ab-4534-9194-db0f43f0a494.8" configVersion="f6268fe1ff4a274cb74b5d168e95363b00000000"/>
