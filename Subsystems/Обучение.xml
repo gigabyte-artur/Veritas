@@ -75,6 +75,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.Персонаж_Оратор</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВидыГоловоломок</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">CommonPicture.ГоловоломкиЛого</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.ВариантыНаград</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СлучайныеСобытия</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.СпособыРасчетаНаград</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

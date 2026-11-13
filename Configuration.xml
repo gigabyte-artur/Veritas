@@ -49,7 +49,7 @@
 			<ScriptVariant>Russian</ScriptVariant>
 			<DefaultRoles/>
 			<Vendor>Gigabyte</Vendor>
-			<Version>2.0.3</Version>
+			<Version>2.0.4</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -331,6 +331,7 @@
 			<CommonTemplate>СловарьБольшой</CommonTemplate>
 			<CommonTemplate>СловарьМалый</CommonTemplate>
 			<CommonTemplate>СловарьОбщий</CommonTemplate>
+			<CommonTemplate>События_Предопределенный</CommonTemplate>
 			<CommonModule>ВосхождениеСервер</CommonModule>
 			<CommonModule>ДостиженияКлиентСервер</CommonModule>
 			<CommonModule>ОбменССайтом</CommonModule>
@@ -354,6 +355,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Противники</Catalog>
 			<Catalog>Сборники</Catalog>
+			<Catalog>СлучайныеСобытия</Catalog>
 			<Enum>ВариантыДействийПротивников</Enum>
 			<Enum>ВидыГоловоломок</Enum>
 			<Enum>ВидыПараметровИгроков</Enum>
@@ -364,6 +366,8 @@
 			<Enum>СложностиПротивников</Enum>
 			<Enum>СложностиСборников</Enum>
 			<Enum>СобытияБоя</Enum>
+			<Enum>ВариантыНаград</Enum>
+			<Enum>СпособыРасчетаНаград</Enum>
 			<Report>ПрогрессОбучения</Report>
 			<DataProcessor>ЛучшиеТестированные</DataProcessor>
 			<DataProcessor>ОбновлениеСборников</DataProcessor>
