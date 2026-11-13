@@ -71,7 +71,7 @@
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb" configVersion="b5ef681e9d79464a943ba6a2f9dbc0c700000000"/>
 		<Metadata name="Catalog.Сборники.Form.ФормаЭлемента.Form" id="0dd34d3f-f93e-4d45-84f4-55c3ca3d16bb.0" configVersion="f994bcca5a059e4a8751ccf292edd69a00000000"/>
 		<Metadata name="Catalog.Сборники.ObjectModule" id="52c44cc3-5d26-4684-b79e-464958bf1145.0" configVersion="9bd4714119728642aeb25789eb912dcd00000000"/>
-		<Metadata name="Catalog.СлучайныеСобытия" id="254e2399-164e-45e8-aef3-b739cab7f695" configVersion="b56ed8cab428c24790907a59a1564f6200000000">
+		<Metadata name="Catalog.СлучайныеСобытия" id="254e2399-164e-45e8-aef3-b739cab7f695" configVersion="95d695a283d39c4c824e9d9a5aa82e0300000000">
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.МинимальноеЗначение" id="026bcd83-87e6-4786-b7b0-7b7a0917aa55"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора.Attribute.МаксимальноеЗначение" id="029dfaca-bb24-4f91-9aa8-f5193a57a604"/>
 			<Metadata name="Catalog.СлучайныеСобытия.TabularSection.НаградыВыбора" id="0e91199e-a50c-4cb7-9483-13002298146d"/>
