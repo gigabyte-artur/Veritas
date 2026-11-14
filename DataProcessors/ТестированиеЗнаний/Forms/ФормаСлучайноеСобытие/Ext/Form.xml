@@ -2,6 +2,7 @@
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:pal="http://v8.1c.ru/8.1/data/ui/colors/palette" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.21">
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
+		<Event name="BeforeClose">ПередЗакрытием</Event>
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
@@ -147,6 +148,7 @@
 					<v8:content>Вариант1</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Вариант1</Action>
 		</Command>
 		<Command name="Вариант2" id="2">
 			<Title>
@@ -161,6 +163,7 @@
 					<v8:content>Вариант2</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Вариант2</Action>
 		</Command>
 		<Command name="Вариант3" id="3">
 			<Title>
@@ -175,6 +178,7 @@
 					<v8:content>Вариант3</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Вариант3</Action>
 		</Command>
 		<Command name="Вариант4" id="4">
 			<Title>
@@ -189,6 +193,7 @@
 					<v8:content>Вариант4</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Вариант4</Action>
 		</Command>
 		<Command name="Вариант5" id="5">
 			<Title>
@@ -203,6 +208,7 @@
 					<v8:content>Вариант5</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Вариант5</Action>
 		</Command>
 		<Command name="Вариант6" id="6">
 			<Title>
@@ -217,6 +223,7 @@
 					<v8:content>Вариант6</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>Вариант6</Action>
 		</Command>
 	</Commands>
 	<Parameters>
