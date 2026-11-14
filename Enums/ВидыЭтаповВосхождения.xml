@@ -129,6 +129,19 @@
 					<Color>auto</Color>
 				</Properties>
 			</EnumValue>
+			<EnumValue uuid="f981c07b-ee0a-4824-9610-8b3416c43148">
+				<Properties>
+					<Name>СлучайноеСобытие</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Случайное событие</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Color>auto</Color>
+				</Properties>
+			</EnumValue>
 		</ChildObjects>
 	</Enum>
 </MetaDataObject>

@@ -47,6 +47,7 @@
 			<Form>ФормаТаблицаШульте</Form>
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаУспешноеВосхождение</Form>
+			<Form>ФормаСлучайноеСобытие</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>

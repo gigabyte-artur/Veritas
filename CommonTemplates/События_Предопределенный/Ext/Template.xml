@@ -24,8 +24,7 @@
 							<v8:content>&lt;?xml version="1.0" encoding="UTF-8"?&gt;
 &lt;version&gt;6&lt;/version&gt;
 &lt;events&gt;
-    &lt;event&gt;
-        &lt;id&gt;sophist_dispute_01&lt;/id&gt;
+    &lt;event id="sophist_dispute_01"&gt;
         &lt;title&gt;Спор с софистом&lt;/title&gt;
         &lt;description&gt;Странствующий софист утверждает, что дважды два — пять, и предлагает пари. Он явно уверен в своей победе.&lt;/description&gt;
         &lt;choices&gt;
@@ -68,8 +67,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;alchemical_cube_01&lt;/id&gt;
+    &lt;event id="alchemical_cube_01"&gt;
         &lt;title&gt;Алхимический куб&lt;/title&gt;
         &lt;description&gt;Медный перегонный куб тихо гудит над огнём. Алхимик готов превратить одну субстанцию в другую — за соответствующую плату.&lt;/description&gt;
         &lt;choices&gt;
@@ -134,8 +132,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;duelist_grave_01&lt;/id&gt;
+    &lt;event id="duelist_grave_01"&gt;
         &lt;title&gt;Могила дуэлянта&lt;/title&gt;
         &lt;description&gt;Из старого холма торчит клинок. Гравировка на гарде стёрлась, но металл не тронут ржавчиной.&lt;/description&gt;
         &lt;choices&gt;
@@ -191,8 +188,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;forgotten_archive_01&lt;/id&gt;
+    &lt;event id="forgotten_archive_01"&gt;
         &lt;title&gt;Забытый архив&lt;/title&gt;
         &lt;description&gt;Пыльный стеллаж хранит трактаты, которые никто не открывал сто лет. Часть страниц склеилась от сырости.&lt;/description&gt;
         &lt;choices&gt;
@@ -239,8 +235,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;oblivion_well_01&lt;/id&gt;
+    &lt;event id="oblivion_well_01"&gt;
         &lt;title&gt;Колодец забвения&lt;/title&gt;
         &lt;description&gt;Из колодца пахнет чернилами и мокрой бумагой. Вода внизу неподвижна, как зеркало.&lt;/description&gt;
         &lt;choices&gt;
@@ -305,8 +300,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;memory_bonfire_01&lt;/id&gt;
+    &lt;event id="memory_bonfire_01"&gt;
         &lt;title&gt;Костёр воспоминаний&lt;/title&gt;
         &lt;description&gt;Костёр горит сам собой. В языках пламени мелькают ваши прошлые победы и поражения.&lt;/description&gt;
         &lt;choices&gt;
@@ -353,8 +347,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;night_library_01&lt;/id&gt;
+    &lt;event id="night_library_01"&gt;
         &lt;title&gt;Ночная библиотека&lt;/title&gt;
         &lt;description&gt;Свечи догорают над запретными трудами. Библиотекарь спит, и скрип половиц звучит слишком громко.&lt;/description&gt;
         &lt;choices&gt;
@@ -419,8 +412,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;gambler_lair_01&lt;/id&gt;
+    &lt;event id="gambler_lair_01"&gt;
         &lt;title&gt;Логово игрока&lt;/title&gt;
         &lt;description&gt;Трое бросают кости на перевёрнутом гробу. Ставки принимают золотом, долгов не прощают.&lt;/description&gt;
         &lt;choices&gt;
@@ -485,8 +477,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;wisdom_shrine_01&lt;/id&gt;
+    &lt;event id="wisdom_shrine_01"&gt;
         &lt;title&gt;Святилище мудрости&lt;/title&gt;
         &lt;description&gt;На алтаре выбито: «Знание не теряется». Чаша для подношений пуста, но ждёт.&lt;/description&gt;
         &lt;choices&gt;
@@ -551,8 +542,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;heretic_trial_01&lt;/id&gt;
+    &lt;event id="heretic_trial_01"&gt;
         &lt;title&gt;Суд над еретиком&lt;/title&gt;
         &lt;description&gt;Толпа решает судьбу связанного старика. Стража ждёт, кто первым бросит камень.&lt;/description&gt;
         &lt;choices&gt;
@@ -608,8 +598,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;lost_student_01&lt;/id&gt;
+    &lt;event id="lost_student_01"&gt;
         &lt;title&gt;Заблудившийся студент&lt;/title&gt;
         &lt;description&gt;Первокурсник плачет над конспектом. Он заблудился между этажами и стеной из формул.&lt;/description&gt;
         &lt;choices&gt;
@@ -674,8 +663,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;archivist_shadow_01&lt;/id&gt;
+    &lt;event id="archivist_shadow_01"&gt;
         &lt;title&gt;Тень архивариуса&lt;/title&gt;
         &lt;description&gt;Между полок движется силуэт с горящими глазами. Он помнит каждое ваше неверное слово.&lt;/description&gt;
         &lt;choices&gt;
@@ -709,8 +697,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;doubt_mirror_01&lt;/id&gt;
+    &lt;event id="doubt_mirror_01"&gt;
         &lt;title&gt;Зеркало сомнений&lt;/title&gt;
         &lt;description&gt;В тёмной зале висит зеркало. Отражение шевелится раньше вас и улыбается шире.&lt;/description&gt;
         &lt;choices&gt;
@@ -766,8 +753,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;smuggler_01&lt;/id&gt;
+    &lt;event id="smuggler_01"&gt;
         &lt;title&gt;Контрабандист&lt;/title&gt;
         &lt;description&gt;Человек в плаще показывает товар из-под полы. Он берёт не только золотом.&lt;/description&gt;
         &lt;choices&gt;
@@ -832,8 +818,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;blood_altar_01&lt;/id&gt;
+    &lt;event id="blood_altar_01"&gt;
         &lt;title&gt;Алтарь крови&lt;/title&gt;
         &lt;description&gt;Каменная чаша наполняется сама, стоит только приложить ладонь. Алтарь помнит вкус крови.&lt;/description&gt;
         &lt;choices&gt;
@@ -898,8 +883,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;dwarf_forge_01&lt;/id&gt;
+    &lt;event id="dwarf_forge_01"&gt;
         &lt;title&gt;Кузница гнома&lt;/title&gt;
         &lt;description&gt;Горн дышит жаром. Кузнец-гном стучит молотом и не смотрит на посетителя.&lt;/description&gt;
         &lt;choices&gt;
@@ -964,8 +948,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;poison_swamp_01&lt;/id&gt;
+    &lt;event id="poison_swamp_01"&gt;
         &lt;title&gt;Ядовитое болото&lt;/title&gt;
         &lt;description&gt;Тропа тонет в зелёной жиже. Воздух густой, а под ногами что-то шевелится.&lt;/description&gt;
         &lt;choices&gt;
@@ -1030,8 +1013,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;beehive_01&lt;/id&gt;
+    &lt;event id="beehive_01"&gt;
         &lt;title&gt;Пчелиный улей&lt;/title&gt;
         &lt;description&gt;Дикий улей висит над обрывом. Мёд здесь целебный, но пчёлы не знают жалости.&lt;/description&gt;
         &lt;choices&gt;
@@ -1096,8 +1078,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;sphinx_riddle_01&lt;/id&gt;
+    &lt;event id="sphinx_riddle_01"&gt;
         &lt;title&gt;Загадка сфинкса&lt;/title&gt;
         &lt;description&gt;Сфинкс преграждает путь и требует слово. Он не торопит, но и не отступает.&lt;/description&gt;
         &lt;choices&gt;
@@ -1131,8 +1112,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;stone_tiles_01&lt;/id&gt;
+    &lt;event id="stone_tiles_01"&gt;
         &lt;title&gt;Каменная плита&lt;/title&gt;
         &lt;description&gt;Пол выложен плитами с числами. Одна плита лишняя, и порядок нарушен.&lt;/description&gt;
         &lt;choices&gt;
@@ -1166,8 +1146,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;echo_hall_01&lt;/id&gt;
+    &lt;event id="echo_hall_01"&gt;
         &lt;title&gt;Зал эха&lt;/title&gt;
         &lt;description&gt;Зал повторяет каждый звук дважды. Нужно вернуть последовательность в точности.&lt;/description&gt;
         &lt;choices&gt;
@@ -1201,8 +1180,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;executioner_gallows_01&lt;/id&gt;
+    &lt;event id="executioner_gallows_01"&gt;
         &lt;title&gt;Виселица палача&lt;/title&gt;
         &lt;description&gt;Палач сидит у пустой виселицы и перебирает буквы. Он предлагает сыграть на слово.&lt;/description&gt;
         &lt;choices&gt;
@@ -1249,8 +1227,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;ancient_table_01&lt;/id&gt;
+    &lt;event id="ancient_table_01"&gt;
         &lt;title&gt;Таблица древних&lt;/title&gt;
         &lt;description&gt;На стене выбита таблица символов. Порядок в ней скрыт, но взгляд цепляется за числа.&lt;/description&gt;
         &lt;choices&gt;
@@ -1284,8 +1261,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;mysterious_door_01&lt;/id&gt;
+    &lt;event id="mysterious_door_01"&gt;
         &lt;title&gt;Таинственная дверь&lt;/title&gt;
         &lt;description&gt;В стене высечена дверь без ручки. Из щелей сочится свет, которого здесь быть не должно.&lt;/description&gt;
         &lt;choices&gt;
@@ -1319,8 +1295,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;crooked_portal_01&lt;/id&gt;
+    &lt;event id="crooked_portal_01"&gt;
         &lt;title&gt;Кривой портал&lt;/title&gt;
         &lt;description&gt;Воздух свёрнут в спираль. Портал нестабилен и пахнет озоном.&lt;/description&gt;
         &lt;choices&gt;
@@ -1363,8 +1338,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;wandering_bard_01&lt;/id&gt;
+    &lt;event id="wandering_bard_01"&gt;
         &lt;title&gt;Странствующий бард&lt;/title&gt;
         &lt;description&gt;Бард настраивает струны у обочины. Он поёт за монету и слушает за бесплатно.&lt;/description&gt;
         &lt;choices&gt;
@@ -1420,8 +1394,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;wounded_wolf_01&lt;/id&gt;
+    &lt;event id="wounded_wolf_01"&gt;
         &lt;title&gt;Раненый волк&lt;/title&gt;
         &lt;description&gt;Волк лежит в капкане и скалится. Лапа располосована, но зубы целы.&lt;/description&gt;
         &lt;choices&gt;
@@ -1477,8 +1450,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;spider_lair_01&lt;/id&gt;
+    &lt;event id="spider_lair_01"&gt;
         &lt;title&gt;Логово паука&lt;/title&gt;
         &lt;description&gt;Кокон в паутине хранит чужой кошель. Хозяин логова где-то рядом.&lt;/description&gt;
         &lt;choices&gt;
@@ -1512,8 +1484,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;cursed_altar_01&lt;/id&gt;
+    &lt;event id="cursed_altar_01"&gt;
         &lt;title&gt;Проклятый алтарь&lt;/title&gt;
         &lt;description&gt;Алтарь пульсирует тёмной энергией. Он требует часть вашей жизни и обещает защиту.&lt;/description&gt;
         &lt;choices&gt;
@@ -1556,8 +1527,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;life_spring_01&lt;/id&gt;
+    &lt;event id="life_spring_01"&gt;
         &lt;title&gt;Источник жизни&lt;/title&gt;
         &lt;description&gt;Родник бьёт из-под камня. Вода светится и на вкус тяжелее обычной.&lt;/description&gt;
         &lt;choices&gt;
@@ -1613,8 +1583,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;relic_merchant_01&lt;/id&gt;
+    &lt;event id="relic_merchant_01"&gt;
         &lt;title&gt;Торговец реликвиями&lt;/title&gt;
         &lt;description&gt;Лоток застелен бархатом, а товар закрыт тканью. Продавец не разрешает выбирать.&lt;/description&gt;
         &lt;choices&gt;
@@ -1657,8 +1626,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;rat_nest_01&lt;/id&gt;
+    &lt;event id="rat_nest_01"&gt;
         &lt;title&gt;Крысиная нора&lt;/title&gt;
         &lt;description&gt;Из норы тянет холодом и слышен скрежет. Что-то тащит по камню металл.&lt;/description&gt;
         &lt;choices&gt;
@@ -1692,8 +1660,7 @@
             &lt;/reward&gt;
         &lt;/rewards&gt;
     &lt;/event&gt;
-    &lt;event&gt;
-        &lt;id&gt;mine_collapse_01&lt;/id&gt;
+    &lt;event id="mine_collapse_01"&gt;
         &lt;title&gt;Обвал в шахте&lt;/title&gt;
         &lt;description&gt;Обвал перекрыл штольню. Сквозь щели виден блеск породы, но камни осыпаются.&lt;/description&gt;
         &lt;choices&gt;
