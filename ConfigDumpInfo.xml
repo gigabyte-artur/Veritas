@@ -95,8 +95,12 @@
 		<Metadata name="CommonForm.ФормаРабочийСтол.Form" id="63a3bd23-2972-4590-9cf7-e9f018bbcb38.0" configVersion="346026582245ce4cbd8db79c8accfe4300000000"/>
 		<Metadata name="CommonForm.ФормаСообщение" id="c19c4fb1-b80c-41e9-83cb-f791a83d5499" configVersion="e912b1009897674e966a02b22305dbcd00000000"/>
 		<Metadata name="CommonForm.ФормаСообщение.Form" id="c19c4fb1-b80c-41e9-83cb-f791a83d5499.0" configVersion="81de3bb230f63640a67f5913b3e534ff00000000"/>
+		<Metadata name="CommonModule.ВосхождениеКлиент" id="8351ab63-3150-4d6b-a853-67bde5ccb0ad" configVersion="c173d4e830291a5419f77ecd9a9d179400000000"/>
+		<Metadata name="CommonModule.ВосхождениеКлиент.Module" id="8351ab63-3150-4d6b-a853-67bde5ccb0ad.0" configVersion="90f5946797076d03d255dc3c324d959000000000"/>
+		<Metadata name="CommonModule.ВосхождениеКлиентСервер" id="1dc3e056-dcac-4fb3-bbad-8adcda87d074" configVersion="2be854dd54267a4bf13d40fd76a5ad5e00000000"/>
+		<Metadata name="CommonModule.ВосхождениеКлиентСервер.Module" id="1dc3e056-dcac-4fb3-bbad-8adcda87d074.0" configVersion="ffcc2b1ab0431397ab9329d613a90b4700000000"/>
 		<Metadata name="CommonModule.ВосхождениеСервер" id="599fdd77-8d60-40ca-845c-10d59b19ed23" configVersion="05a57917401de6418ec4f704de51109e00000000"/>
-		<Metadata name="CommonModule.ВосхождениеСервер.Module" id="599fdd77-8d60-40ca-845c-10d59b19ed23.0" configVersion="b99c03c293f1f44ea0126c35adb52d5d00000000"/>
+		<Metadata name="CommonModule.ВосхождениеСервер.Module" id="599fdd77-8d60-40ca-845c-10d59b19ed23.0" configVersion="91e006c502f5a255c7a9367bcb0cc40a00000000"/>
 		<Metadata name="CommonModule.ДостиженияКлиентСервер" id="b561d1e7-38f8-4c61-80d9-322af6eecc36" configVersion="d851f06d9454fa4e81e757cde6d727d100000000"/>
 		<Metadata name="CommonModule.ДостиженияКлиентСервер.Module" id="b561d1e7-38f8-4c61-80d9-322af6eecc36.0" configVersion="5c68dd5b5ac6b94d96baa85a7f6d8e4000000000"/>
 		<Metadata name="CommonModule.ОбменССайтом" id="b1b8d561-f237-41c1-b9aa-52bb718fee4f" configVersion="e16794b4b3d10644b4491b9b369f4e4200000000"/>
@@ -259,7 +263,7 @@
 		<Metadata name="DataProcessor.ПереносСборников.ManagerModule" id="d630b1f1-0971-4494-bf41-db69eeb8077f.2" configVersion="d332788a6ebee34d9d533b92532bccac00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний" id="2999ecc1-a473-4398-8d48-3351ae5887e9" configVersion="58a09582f99d664a854a665c4c8f76ec00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21" configVersion="6564c747319fc44a8f73f22989c7977b00000000"/>
-		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="fa1f82d7b8474a419b079d06ccbe30c600000000"/>
+		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.Форма.Form" id="484cd0dd-8338-4d87-8b92-e66ef26f1a21.0" configVersion="9522a27b02b6d954e106573b7cc49d8a00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаWordle" id="d4ebec50-ef88-4427-9c14-a1f77a0f6121" configVersion="b724c4feb2c1d349812368ed4700cdb400000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаWordle.Form" id="d4ebec50-ef88-4427-9c14-a1f77a0f6121.0" configVersion="ebe40c66ec93ca4c9ae713dcec4c0efb00000000"/>
 		<Metadata name="DataProcessor.ТестированиеЗнаний.Form.ФормаВиселица" id="b3aa4787-11e6-416d-937f-f9e77a205944" configVersion="e8ebc9813dc4b94fb5d3390464e5314000000000"/>

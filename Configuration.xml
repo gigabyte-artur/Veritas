@@ -332,6 +332,8 @@
 			<CommonTemplate>СловарьМалый</CommonTemplate>
 			<CommonTemplate>СловарьОбщий</CommonTemplate>
 			<CommonTemplate>События_Предопределенный</CommonTemplate>
+			<CommonModule>ВосхождениеКлиент</CommonModule>
+			<CommonModule>ВосхождениеКлиентСервер</CommonModule>
 			<CommonModule>ВосхождениеСервер</CommonModule>
 			<CommonModule>ДостиженияКлиентСервер</CommonModule>
 			<CommonModule>ОбменССайтом</CommonModule>
