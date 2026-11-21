@@ -44,10 +44,10 @@
 			<Form>ФормаПораженияВосхождение</Form>
 			<Form>ФормаПросмотраКартинки</Form>
 			<Form>ФормаПятнашки</Form>
+			<Form>ФормаСлучайноеСобытие</Form>
 			<Form>ФормаТаблицаШульте</Form>
 			<Form>ФормаТорговца</Form>
 			<Form>ФормаУспешноеВосхождение</Form>
-			<Form>ФормаСлучайноеСобытие</Form>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
